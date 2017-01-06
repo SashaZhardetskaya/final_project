@@ -1,6 +1,9 @@
 @import './bootstrap.min';
 @import './font-awesome-4.7.0/scss/font-awesome';
-$font-stack:    Helvetica, sans-serif;
+@import './fonts';
+
+
+// $font-stack:    Helvetica, sans-serif;
 
 .home {
 	height: 100vh;
@@ -19,12 +22,12 @@ $font-stack:    Helvetica, sans-serif;
 	}
 }
 
-.projects-title {
+.projects-title {	
 	text-align: center;
 	text-transform: uppercase;
-	color: #333;
+	color: #333;	
+	font-family: Gotham;
 	font-weight: 300;
-    font-size: 30px;
     letter-spacing: 5px;
 }
 

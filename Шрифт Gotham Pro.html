@@ -1,0 +1,1764 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Шрифт Gotham Pro</title>
+	<base href="http://fonts4web.ru/" />
+	<link rel="shortcut icon" href="favicon.ico"/>
+	<style>
+	@font-face {
+	font-family: "ArianAMUSerifBold";
+	src: url("/fonts/ArianAMUSerifBold/ArianAMUSerifBold.eot");
+	src: url("/fonts/ArianAMUSerifBold/ArianAMUSerifBold.eot?#iefix") format("embedded-opentype"),
+	url("/fonts/ArianAMUSerifBold/ArianAMUSerifBold.woff") format("woff"),
+	url("/fonts/ArianAMUSerifBold/ArianAMUSerifBold.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+@font-face {
+	font-family: "ArianAMUSerifRegular";
+	src: url("/fonts/ArianAMUSerifRegular/ArianAMUSerifRegular.eot");
+	src: url("/fonts/ArianAMUSerifRegular/ArianAMUSerifRegular.eot?#iefix") format("embedded-opentype"),
+	url("/fonts/ArianAMUSerifRegular/ArianAMUSerifRegular.woff") format("woff"),
+	url("/fonts/ArianAMUSerifRegular/ArianAMUSerifRegular.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+*::-webkit-input-placeholder {
+	color: #999;
+	opacity: 1;
+}
+*:-moz-placeholder {
+	color: #999;
+	opacity: 1;
+}
+*::-moz-placeholder {
+	color: #999;
+	opacity: 1;
+}
+*:-ms-input-placeholder {
+	color: #999;
+	opacity: 1;
+}
+body {
+	font-family: "ArianAMUSerifRegular", serif;
+	font-size: 18px;
+	margin: 0;
+	padding: 0;
+	color: #000;
+	background-color: #f0f0f0;
+	padding-top: 267px;
+}
+header {
+	background-color: #fff;
+	padding-bottom: 30px;
+	padding-top: 50px;
+	position: absolute;
+	text-align: center;
+	top: 0;
+	width: 100%;
+	-webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+	-moz-box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+article p {
+	line-height: 28px;
+}
+.logo {
+	color: #000;
+	font-size: 52px;
+	font-weight: bold;
+	margin-right: 28px;
+	text-decoration: none;
+}
+.logo sup {
+	color: #e74c3c;
+	display: inline-block;
+	font-family: sans-serif;
+	font-size: 26px;
+	position: absolute;
+}
+.logo_descr {
+	margin: 10px auto auto;
+	max-width: 580px;
+}
+strong {
+	font-family: "ArianAMUSerifBold", serif;
+	font-weight: normal;
+}
+.s_search {
+	background-color: #f0f0f0;
+	height: 42px;
+	margin-top: 0;
+	padding: 20px 0;
+	position: absolute;
+	text-align: center;
+	top: 185px;
+	width: 100%;
+	position: absolute;
+}
+div.search {
+	position: relative;
+	width: 440px;
+	margin: auto;
+	display: inline-block;
+	vertical-align: top;
+}
+div.search input {
+	border: 3px solid #999999;
+	display: inline-block;
+	height: 34px;
+	line-height: 34px;
+	width: 100%;
+	text-indent: 10px;
+	font-size: 22px;
+	color: #999;
+	font-family: sans-serif;
+	text-indent: 34px;
+	-webkit-transition: all .25s;
+	-o-transition: all .25s;
+	transition: all .25s;
+	outline: none;
+	border-radius: 4px;
+}
+div.search input:focus {
+	border-color: #4ebb5b;
+	color: #333;
+}
+div.search button {
+	background-color: transparent;
+	background-image: url("/template/images/search.png");
+	border: medium none;
+	cursor: default;
+	display: block;
+	height: 24px;
+	position: absolute;
+	left: 12px;
+	top: 9px;
+	width: 21px;
+	opacity: .4;
+}
+.button {
+	border: 3px solid #e74c3c;
+	color: #e74c3c;
+	display: inline-block;
+	font-family: sans-serif;
+	height: 36px;
+	line-height: 36px;
+	padding: 0 20px;
+	text-decoration: none;
+	text-transform: uppercase;
+	white-space: nowrap;
+	-webkit-transition: all .25s;
+	-o-transition: all .25s;
+	transition: all .25s;
+}
+.button:hover,
+.button.active {
+	background-color: #e74c3c;
+	color: #fff;
+}
+.button.red {
+	-webkit-box-shadow: transparent 0 0 0 5px;
+	box-shadow: transparent 0 0 0 5px;
+	-webkit-transition: all .25s;
+	-o-transition: all .25s;
+	transition: all .25s;
+}
+.button.red:hover {
+	-webkit-box-shadow: #E74C3C 0 0 0 0px;
+	box-shadow: #E74C3C 0 0 0 0px;
+}
+div.search + .back.button {
+	margin-left: 30px;
+	position: absolute;
+}
+nav.top_mnu {
+	background-image: url("/template/images/mnu_bg.jpg");
+	background-position: center center;
+	background-repeat: repeat-x;
+	margin-top: 30px;
+}
+.top_mnu ul {
+	background-color: #fff;
+	list-style-type: none;
+	margin: auto;
+	padding: 0;
+	width: 350px;
+	text-align: center;
+}
+.top_mnu li {
+	display: inline-block;
+	padding: 0 20px;
+}
+.top_mnu li:first-child:after {
+	color: #e74c3c;
+	content: "/";
+	font-family: sans-serif;
+	margin-left: 18px;
+	position: absolute;
+}
+.top_mnu a {
+	border-bottom: 2px solid #e74c3c;
+	color: #e74c3c;
+	font-family: Consolas, monospace;
+	text-decoration: none;
+	-webkit-transition: all .25s;
+	-o-transition: all .25s;
+	transition: all .25s;
+	font-size: 22px;
+	line-height: 26px;
+}
+.top_mnu a:hover {
+	border-bottom-color: transparent;
+}
+.list_item,
+.adv_item {
+	border-bottom: 2px solid #e0e0e0;
+	color: #000;
+	display: block;
+	margin: 0 auto 20px;
+	max-width: 1000px;
+	padding-bottom: 15px;
+	text-align: left;
+	text-decoration: none;
+	vertical-align: top;
+}
+.img_cont {
+	background-color: #fff;
+	border: 5px solid #fff;
+	border-left: none;
+	color: #fff;
+	display: block;
+	height: 70px;
+	overflow: hidden;
+	position: relative;
+	-webkit-transition: all .25s;
+	-o-transition: all .25s;
+	transition: all .25s;
+	border-bottom: #fff 5px solid;
+	-webkit-box-shadow: 0 0 0 0 transparent;
+	box-shadow: 0 0 0 0 transparent;
+}
+.fonts_list {
+	padding-top: 0;
+	text-align: center;
+	background-color: #fff;
+	padding-bottom: 30px;
+}
+.list_item h5 {
+	border-bottom: 2px solid transparent;
+	color: #999;
+	display: inline-block;
+	font-family: sans-serif;
+	font-size: 20px;
+	font-weight: normal;
+	line-height: 22px;
+	margin-bottom: 0;
+	margin-top: -5px;
+	text-align: left;
+	transition: all 0.25s ease 0s;
+	-webkit-transition: all .25s;
+	-o-transition: all .25s;
+	transition: all .25s;
+}
+.list_item:hover h5 {
+	border-bottom: 2px solid #999;
+}
+.list_item:hover .img_cont {
+	-webkit-box-shadow: 0 0 0 5px #e0e0e0;
+	box-shadow: 0 0 0 0 #e0e0e0;
+	border-color: transparent;
+}
+.list_types {
+	color: #e74c3c;
+	font-family: sans-serif;
+	font-size: 14px;
+	display: block;
+}
+.container {
+	max-width: 1000px;
+	margin: auto;
+}
+footer {
+	background-color: #f0f0f0;
+	font-family: sans-serif;
+	font-size: 16px;
+	padding: 20px 0;
+	color: #999;
+	border-top: #999 3px solid;
+}
+footer a {
+	color: #999;
+}
+footer a:hover {
+	text-decoration: none;
+	color: #666;
+}
+article h2 {
+	font-family: "ArianAMUSerifBold", serif;
+	font-weight: normal;
+	margin-bottom: 15px;
+}
+.hidden {
+	display: none;
+}
+#callback {
+	width: 400px;
+}
+#callback h3 {
+	font-size: 24px;
+	margin: 10px 0 12px;
+	text-align: center;
+}
+#callback input[type="text"], textarea,
+.demo input[type="text"] {
+	border: 3px solid #999;
+	color: #999;
+	display: block;
+	font-family: sans-serif;
+	height: 36px;
+	line-height: 36px;
+	margin: 15px auto 0;
+	text-decoration: none;
+	text-indent: 10px;
+	white-space: nowrap;
+	width: 88%;
+	font-size: 16px;
+	outline: none;
+	-webkit-transition: all .25s;
+	-o-transition: all .25s;
+	transition: all .25s;
+}
+#callback input[type="text"]:focus,
+#callback textarea:focus {
+	border-color: #4ebb5b;
+	color: #333;
+}
+#callback textarea {
+	height: 72px;
+	line-height: 20px;
+	padding-top: 5px;
+	max-width: 88%;
+	min-width: 88%;
+}
+#callback button {
+	display: block;
+	font-size: 18px;
+	height: 43px;
+	margin: 20px auto 10px;
+	cursor: pointer;
+}
+#callback p {
+	font-size: 15px;
+	margin: auto;
+	text-align: center;
+	width: 88%;
+}
+article h1 {
+	font-family: "ArianAMUSerifBold", serif;
+	font-size: 42px;
+	margin-bottom: 20px;
+	margin-top: 0;
+	padding-top: 30px;
+	font-weight: normal;
+	color: #999;
+}
+.art_img {
+	border-radius: 1px;
+	margin-bottom: 35px;
+	overflow: hidden;
+	padding-left: 15px;
+	-webkit-box-shadow: 0 0 0 7px #f0f0f0;
+	box-shadow: 0 0 0 7px #f0f0f0;
+}
+.art_img img {
+	display: block;
+}
+.font_type {
+	color: #e74c3c;
+	font-weight: bold;
+}
+.code {
+	background-color: #f0f0f0;
+	padding: 25px 25px 1px;
+	margin-bottom: 30px;
+	border-radius: 5px;
+}
+.filesys {
+	background-color: #fff;
+	box-shadow: 0 0 0 7px #f0f0f0 inset;
+}
+pre {
+	font-weight: bold;
+	font-family: Consolas, monospace;
+	overflow-x: auto;
+	padding-bottom: 10px;
+}
+.code span {
+	color: #999;
+	font-family: Consolas, monospace;
+}
+article {
+	padding-bottom: 45px;
+	background-color: #fff;
+	-webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+	-moz-box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.button.download {
+	background-color: #4ebb5b;
+	background-image: url("/template/images/download.png");
+	background-position: 0 3px;
+	background-repeat: no-repeat;
+	border: 3px solid #4ebb5b;
+	box-shadow: 0 0 0 10px transparent;
+	color: #fff;
+	padding-left: 41px;
+	text-transform: none;
+	-webkit-transition: all .25s;
+	-o-transition: all .25s;
+	transition: all .25s;
+	border-radius: 4px;
+}
+.button.download:hover {
+	border: 3px solid #fff;
+	box-shadow: 0 0 0 3px #4ebb5b;
+}
+span.download {
+	background-color: #fff;
+	background-image: url("/template/images/download.png");
+	border: 5px solid #4EBB5B;
+	bottom: 3px;
+	cursor: pointer;
+	display: none;
+	font-family: "PYSansRegular", serif;
+	font-size: 9px;
+	height: 14px;
+	padding-top: 26px;
+	position: absolute;
+	right: 14px;
+	text-align: center;
+	width: 40px;
+}
+pre span {
+	font-weight: normal;
+}
+.notfound {
+	font-size: 24px;
+	line-height: 32px;
+	margin-bottom: 25px;
+	margin-top: 40px;
+}
+.notfound a {
+	border-bottom: 2px dashed #e74c3c;
+	color: #e74c3c;
+	text-decoration: none;
+	-webkit-transition: all .25s;
+	-o-transition: all .25s;
+	transition: all .25s;
+}
+.notfound a:hover {
+	border-bottom: 1px dotted transparent;
+}
+article h3 {
+	font-family: "ArianAMUSerifBold", serif;
+	font-weight: normal;
+	font-size: 25px;
+	margin-bottom: 0;
+	margin-top: 20px;
+}
+article h3 + p {
+	margin-top: 10px;
+}
+iframe.output {
+	border: 0 none;
+	box-shadow: 0 0 0 5px #2f3129;
+	display: none;
+	height: 300px;
+	margin-left: 5px;
+	width: 99.1%;
+	margin-top: 20px;
+	border-radius: 1px;
+}
+#idpre {
+	background-color: #202020;
+	border-top: 0;
+	border-bottom: 0;
+	color: #fff;
+	font-family: Consolas, monospace;
+	font-size: 16px;
+	font-weight: normal;
+	height: 22px;
+	padding-top: 10px;
+	padding-left: 20px;
+	margin-top: 0;
+	margin-bottom: 0;
+	border-radius: 4px;
+}
+#idpre.active {
+	height: 200px;
+	padding-top: 0;
+	padding-left: 0;
+	border-top: 10px solid #202020;
+	border-bottom: 10px solid #202020;
+}
+.demo {
+	clear: both;
+	display: table;
+	margin-bottom: 40px;
+	width: 100%;
+}
+#f_sel {
+	width: 300px;
+}
+#f_sel-menu {
+	overflow-y: auto;
+	height: 496px;
+}
+#f_sel-menu li {
+	width: 164px;
+	display: inline-block;
+	white-space: nowrap;
+}
+#f_sel-button {
+	background-color: #2F3129;
+	border-color: #202020;
+}
+#f_sel-button span {
+	color: #fff;
+}
+#gar_sel {
+	width: 200px;
+}
+#fz_sel {
+	width: 120px;
+}
+#nu_sel {
+	width: 160px;
+}
+body .ui-state-default .ui-icon {
+	background-image: url(/template/images/arrow.png);
+	background-position: center center;
+}
+body .ui-selectmenu-button span.ui-selectmenu-text {
+	color: #202020;
+	font-size: 18px;
+	height: 18px;
+	padding: 8px 16px;
+	line-height: 16px;
+}
+body .ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default, .ui-state-hover {
+	background-image: none;
+	border: none;
+	-webkit-border-radius: 0;
+	-moz-border-radius: 0;
+	border-radius: 4px;
+	background-color: #fff;
+	border: #d8d8d8 2px solid;
+	margin-right: 8px;
+}
+body .ui-menu .ui-menu-item {
+	background-color: #ffffff;
+	font-size: 16px;
+	padding: 9px 16px;
+}
+body .ui-menu .ui-menu-item:hover {
+	background-color: #2f3129;
+	color: #fff;
+}
+body .ui-menu-item.ui-state-focus {
+	font-size: 16px;
+	background-color: #fff;
+	background-image: none;
+	border: medium none;
+	color: #e74c3c;
+	margin: 0;
+	font-weight: normal;
+}
+body .ui-selectmenu-menu > ul {
+	border-color: #fff;
+	border: #d8d8d8 2px solid;
+	border-top: 0;
+	border-radius: 0;
+	padding-bottom: 0;
+}
+.selects {
+	margin-bottom: 5px;
+}
+body .ace-monokai .ace_invalid {
+	background-color: transparent;
+	opacity: 0;
+}
+.qs {
+	border-bottom: 1px dashed #000;
+	cursor: help;
+	font-family: "ArianAMUSerifBold", serif;
+}
+.list_search input {
+	border: 3px solid #4ebb5b;
+	font-family: sans-serif;
+	font-size: 19px;
+	height: 30px;
+	margin: 12px 0 10px 15px;
+	text-indent: 8px;
+	width: 96%;
+}
+.list_search {
+	border-left: 2px solid #d8d8d8;
+	border-right: 2px solid #d8d8d8;
+	width: 99.7%;
+}
+.tags {
+	background-color: #333333;
+	box-shadow: 0 0 0 3px rgba(255, 255, 255, 0.7);
+	padding: 20px 25px 10px;
+	display: none;
+}
+.tags ul {
+	margin: 0;
+	padding: 0;
+}
+.tags li {
+	border: 3px solid #666;
+	color: #999;
+	cursor: pointer;
+	font-family: sans-serif;
+	font-size: 19px;
+	margin-bottom: 10px;
+	padding: 0 14px;
+	text-transform: none;
+	border-radius: 4px;
+}
+.tags li:first-child {
+
+}
+.tags li.active:first-child {
+	
+}
+.tags li:hover,
+.tags li:active {
+	border-color: #fff;
+}
+.s_search .button.red {
+	background-image: url("/template/images/cats.png");
+	background-position: 10px 10px;
+	background-repeat: no-repeat;
+	cursor: pointer;
+	margin: 0 20px;
+	padding-left: 45px;
+	border-radius: 4px;
+}
+.s_search .button.red:hover,
+.s_search .button.red.active {
+	background-position: 10px -24px;
+}
+.list_items {
+	padding-top: 50px;
+}
+body.nohome {
+	padding-top: 190px;
+}
+@media screen and (max-width: 1000px) {
+	div.search + .back.button {
+		display: block;
+		margin: 15px auto auto;
+		position: relative;
+		width: 200px;
+	}
+	body .demo_url input {
+		width: 99%;
+	}
+	body .button.durl {
+		right: 0;
+	}
+}
+@media screen and (max-width: 655px) {
+	div.search {
+		width: 88%;
+	}
+	.logo_descr > div {
+		display: none;
+	}
+	.logo_descr > span {
+		display: block;
+	}
+	iframe {
+		margin-left: 0;
+		-webkit-box-shadow: none;
+		box-shadow: none;
+	}
+	.shome {
+		height: 90px;
+	}
+	.s_search .button.red {
+		margin-top: 10px;
+	}
+	.tags {
+		margin-top: 45px;
+	}
+	.list_items {
+		padding-top: 80px;
+	}
+}
+@media screen and (min-width: 1000px) {
+	.tags.fixed {
+		padding-left: 2%;
+		padding-right: 2%;
+		position: fixed;
+		top: 0;
+		width: 96%;
+		z-index: 10;
+	}
+	.list_top {
+		margin-top: 130px;
+	}
+}
+@media screen and (min-width: 1920px) {
+	.list_top {
+		margin-top: 68px;
+	}
+}
+.count_fonts {
+	background-color: #fff;
+	color: #999;
+	font-family: sans-serif;
+	font-size: 15px;
+	height: 36px;
+	line-height: 36px;
+	padding: 0 10px;
+	position: absolute;
+	right: -5px;
+	top: 3px;
+	cursor: default;
+}
+.home h1 {
+	display: inline;
+	font-size: 18px;
+	font-weight: normal;
+	margin: 0;
+	font-family: "ArianAMUSerifBold", serif;
+}
+.demo_url p {
+	margin-bottom: 12px;
+}
+.demo_url {
+	margin-bottom: 20px;
+	position: relative;
+}
+.demo_url input {
+	background-color: #fbfbfb;
+	border: 0 none;
+	border-radius: 1px;
+	box-shadow: 0 0 0 5px #4e72bb;
+	color: #999;
+	display: inline-block;
+	font-family: sans-serif;
+	font-size: 22px;
+	height: 34px;
+	line-height: 34px;
+	outline: medium none;
+	text-indent: 10px;
+	transition: all 0.25s ease 0s;
+	width: 99.6%;
+}
+.demo_url input:focus {
+	box-shadow: #4e72bb 0 0 0 7px;
+	color: #333;
+}
+.button.durl {
+	background-color: #4e72bb;
+	background-position: 0 3px;
+	background-repeat: no-repeat;
+	border: 3px solid #4e72bb;
+	border-radius: 4px;
+	bottom: -5px;
+	box-shadow: 0 0 0 10px transparent;
+	color: #fff;
+	cursor: pointer;
+	font-size: 18px;
+	height: 46px;
+	line-height: 30px;
+	position: absolute;
+	right: -2px;
+	text-transform: none;
+	-webkit-transition: all 0.25s ease 0s;
+	-o-transition: all 0.25s ease 0s;
+	transition: all 0.25s ease 0s;
+}
+.button.durl:hover,
+.button.durl.active {
+	border: 3px solid #fff;
+	box-shadow: 0 0 0 3px #4e72bb;
+}
+.button.pagedemo {
+	border-radius: 4px;
+	bottom: 0;
+	font-size: 20px;
+	height: 36px;
+	line-height: 36px;
+	margin-left: 5px;
+	position: relative;
+	vertical-align: top;
+}
+.right {
+	float: right;
+}
+.ad {
+	margin-bottom: 10px;
+}
+.button.select {
+	background-position: 0 3px;
+	background-repeat: no-repeat;
+	border-radius: 4px;
+	box-shadow: 0 0 0 10px transparent;
+	color: #fff;
+	cursor: pointer;
+	float: right;
+	height: 36px;
+	line-height: 36px;
+	margin-bottom: 15px;
+	position: relative;
+	right: 0;
+	text-transform: none;
+	top: 0;
+	-webkit-transition: all 0.25s ease;
+	-moz-transition: all 0.25s ease;
+	-ms-transition: all 0.25s ease;
+	-o-transition: all 0.25s ease;
+	transition: all 0.25s ease;
+}
+.popup_text {
+	max-width: 800px;
+	text-align: left;
+}
+.down_page .popup_text p {
+	text-align: left;
+}
+.popup_text h3 {
+	margin-bottom: 0;
+}
+.down_2 {
+	margin-bottom: 10px;
+}
+.center {
+	text-align: center;
+}
+.lnk {
+	margin-right: 25px;
+}
+.down_page article h1 {
+	color: #333;
+	font-size: 40px;
+	text-align: center;
+}
+.down_page {
+	padding-top: 190px;
+}
+.down_page article {
+	min-height: 360px;
+}
+.down_page p {
+	text-align: center;
+}
+.counter {
+	background-color: #e74c3c;
+	border-radius: 10em;
+	color: #fff;
+	font-family: "ArianAMUSerifBold",serif;
+	font-size: 55px;
+	height: 75px;
+	line-height: 32px;
+	margin: auto;
+	padding-top: 25px;
+	text-align: center;
+	width: 100px;
+	overflow: hidden;
+}
+.counter div {
+	color: #ffccbc;
+	font-family: ArianAMUSerifRegular;
+	font-size: 16px;
+	margin-top: 2px;
+}
+.down_page .container {
+	text-align: center;
+}
+.font_down_button {
+	color: #cc0000;
+	font-size: 18px;
+	display: none;
+}
+.font_down_button2 {
+	color: #888;
+	font-size: 14px;
+	display: none;
+}
+.down_page .ad {
+	margin-top: 20px;
+}
+.down_page footer .container {
+	text-align: left;
+}
+.counter > strong {
+	text-shadow: 1px 1px rgb(208, 68, 54), 2px 2px rgb(208, 68, 54), 3px 3px rgb(208, 68, 54), 4px 4px rgb(208, 68, 54), 5px 5px rgb(208, 68, 54), 6px 6px rgb(208, 68, 54), 7px 7px rgb(208, 68, 54), 8px 8px rgb(208, 68, 54), 9px 9px rgb(208, 68, 54), 10px 10px rgb(208, 68, 54), 11px 11px rgb(208, 68, 54), 12px 12px rgb(208, 68, 54), 13px 13px rgb(208, 68, 54), 14px 14px rgb(208, 68, 54), 15px 15px rgb(208, 68, 54), 16px 16px rgb(209, 68, 54), 17px 17px rgb(210, 68, 54), 18px 18px rgb(211, 69, 54), 19px 19px rgb(212, 69, 55), 20px 20px rgb(214, 70, 55), 21px 21px rgb(215, 70, 55), 22px 22px rgb(216, 70, 56), 23px 23px rgb(217, 71, 56), 24px 24px rgb(218, 71, 56), 25px 25px rgb(220, 72, 57), 26px 26px rgb(221, 72, 57), 27px 27px rgb(222, 73, 57), 28px 28px rgb(223, 73, 58), 29px 29px rgb(224, 73, 58), 30px 30px rgb(226, 74, 58), 31px 31px rgb(227, 74, 59), 32px 32px rgb(228, 75, 59), 33px 33px rgb(229, 75, 59), 34px 34px rgb(231, 76, 60);
+}
+.banner {
+	display: block;
+	margin-left: -15px;
+}
+footer img {
+	margin-left: 20px;
+	vertical-align: middle;
+}
+	/*! fancyBox v2.1.5 fancyapps.com | fancyapps.com/fancybox/#license */
+.fancybox-wrap,
+.fancybox-skin,
+.fancybox-outer,
+.fancybox-inner,
+.fancybox-image,
+.fancybox-wrap iframe,
+.fancybox-wrap object,
+.fancybox-nav,
+.fancybox-nav span,
+.fancybox-tmp
+{
+	padding: 0;
+	margin: 0;
+	border: 0;
+	outline: none;
+	vertical-align: top;
+}
+
+.fancybox-wrap {
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 8020;
+}
+
+.fancybox-skin {
+	position: relative;
+	background: #f9f9f9;
+	color: #444;
+	text-shadow: none;
+	-webkit-border-radius: 4px;
+	   -moz-border-radius: 4px;
+	        border-radius: 4px;
+}
+
+.fancybox-opened {
+	z-index: 8030;
+}
+
+.fancybox-opened .fancybox-skin {
+	-webkit-box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
+	   -moz-box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
+	        box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
+}
+
+.fancybox-outer, .fancybox-inner {
+	position: relative;
+}
+
+.fancybox-inner {
+	overflow: hidden;
+}
+
+.fancybox-type-iframe .fancybox-inner {
+	-webkit-overflow-scrolling: touch;
+}
+
+.fancybox-error {
+	color: #444;
+	font: 14px/20px "Helvetica Neue",Helvetica,Arial,sans-serif;
+	margin: 0;
+	padding: 15px;
+	white-space: nowrap;
+}
+
+.fancybox-image, .fancybox-iframe {
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+
+.fancybox-image {
+	max-width: 100%;
+	max-height: 100%;
+}
+
+#fancybox-loading, .fancybox-close, .fancybox-prev span, .fancybox-next span {
+	background-image: url('/template/libs/fancybox/fancybox_sprite.png');
+}
+
+#fancybox-loading {
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	margin-top: -22px;
+	margin-left: -22px;
+	background-position: 0 -108px;
+	opacity: 0.8;
+	cursor: pointer;
+	z-index: 8060;
+}
+
+#fancybox-loading div {
+	width: 44px;
+	height: 44px;
+	background: url('/template/libs/fancybox/fancybox_loading.gif') center center no-repeat;
+}
+
+.fancybox-close {
+	position: absolute;
+	top: -18px;
+	right: -18px;
+	width: 36px;
+	height: 36px;
+	cursor: pointer;
+	z-index: 8040;
+}
+
+.fancybox-nav {
+	position: absolute;
+	top: 0;
+	width: 40%;
+	height: 100%;
+	cursor: pointer;
+	text-decoration: none;
+	background: transparent url('/template/libs/fancybox/blank.gif'); /* helps IE */
+	-webkit-tap-highlight-color: rgba(0,0,0,0);
+	z-index: 8040;
+}
+
+.fancybox-prev {
+	left: 0;
+}
+
+.fancybox-next {
+	right: 0;
+}
+
+.fancybox-nav span {
+	position: absolute;
+	top: 50%;
+	width: 36px;
+	height: 34px;
+	margin-top: -18px;
+	cursor: pointer;
+	z-index: 8040;
+	visibility: hidden;
+}
+
+.fancybox-prev span {
+	left: 10px;
+	background-position: 0 -36px;
+}
+
+.fancybox-next span {
+	right: 10px;
+	background-position: 0 -72px;
+}
+
+.fancybox-nav:hover span {
+	visibility: visible;
+}
+
+.fancybox-tmp {
+	position: absolute;
+	top: -99999px;
+	left: -99999px;
+	visibility: hidden;
+	max-width: 99999px;
+	max-height: 99999px;
+	overflow: visible !important;
+}
+
+/* Overlay helper */
+
+.fancybox-lock {
+    overflow: hidden !important;
+    width: auto;
+}
+
+.fancybox-lock body {
+    overflow: hidden !important;
+}
+
+.fancybox-lock-test {
+    overflow-y: hidden !important;
+}
+
+.fancybox-overlay {
+	position: absolute;
+	top: 0;
+	left: 0;
+	overflow: hidden;
+	display: none;
+	z-index: 8010;
+	background: url('/template/libs/fancybox/fancybox_overlay.png');
+}
+
+.fancybox-overlay-fixed {
+	position: fixed;
+	bottom: 0;
+	right: 0;
+}
+
+.fancybox-lock .fancybox-overlay {
+	overflow: auto;
+	overflow-y: scroll;
+}
+
+/* Title helper */
+
+.fancybox-title {
+	visibility: hidden;
+	font: normal 13px/20px "Helvetica Neue",Helvetica,Arial,sans-serif;
+	position: relative;
+	text-shadow: none;
+	z-index: 8050;
+}
+
+.fancybox-opened .fancybox-title {
+	visibility: visible;
+}
+
+.fancybox-title-float-wrap {
+	position: absolute;
+	bottom: 0;
+	right: 50%;
+	margin-bottom: -35px;
+	z-index: 8050;
+	text-align: center;
+}
+
+.fancybox-title-float-wrap .child {
+	display: inline-block;
+	margin-right: -100%;
+	padding: 2px 20px;
+	background: transparent; /* Fallback for web browsers that doesn't support RGBa */
+	background: rgba(0, 0, 0, 0.8);
+	-webkit-border-radius: 15px;
+	   -moz-border-radius: 15px;
+	        border-radius: 15px;
+	text-shadow: 0 1px 2px #222;
+	color: #FFF;
+	font-weight: bold;
+	line-height: 24px;
+	white-space: nowrap;
+}
+
+.fancybox-title-outside-wrap {
+	position: relative;
+	margin-top: 10px;
+	color: #fff;
+}
+
+.fancybox-title-inside-wrap {
+	padding-top: 10px;
+}
+
+.fancybox-title-over-wrap {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	color: #fff;
+	padding: 10px;
+	background: #000;
+	background: rgba(0, 0, 0, .8);
+}
+	
+	/*! jQuery UI - v1.11.1 - 2014-10-03
+* http://jqueryui.com
+* Includes: core.css, menu.css, selectmenu.css, theme.css
+* To view and modify this theme, visit http://jqueryui.com/themeroller/?ffDefault=Trebuchet%20MS%2CTahoma%2CVerdana%2CArial%2Csans-serif&fwDefault=bold&fsDefault=1.1em&cornerRadius=4px&bgColorHeader=f6a828&bgTextureHeader=gloss_wave&bgImgOpacityHeader=35&borderColorHeader=e78f08&fcHeader=ffffff&iconColorHeader=ffffff&bgColorContent=eeeeee&bgTextureContent=highlight_soft&bgImgOpacityContent=100&borderColorContent=dddddd&fcContent=333333&iconColorContent=222222&bgColorDefault=f6f6f6&bgTextureDefault=glass&bgImgOpacityDefault=100&borderColorDefault=cccccc&fcDefault=1c94c4&iconColorDefault=ef8c08&bgColorHover=fdf5ce&bgTextureHover=glass&bgImgOpacityHover=100&borderColorHover=fbcb09&fcHover=c77405&iconColorHover=ef8c08&bgColorActive=ffffff&bgTextureActive=glass&bgImgOpacityActive=65&borderColorActive=fbd850&fcActive=eb8f00&iconColorActive=ef8c08&bgColorHighlight=ffe45c&bgTextureHighlight=highlight_soft&bgImgOpacityHighlight=75&borderColorHighlight=fed22f&fcHighlight=363636&iconColorHighlight=228ef1&bgColorError=b81900&bgTextureError=diagonals_thick&bgImgOpacityError=18&borderColorError=cd0a0a&fcError=ffffff&iconColorError=ffd27a&bgColorOverlay=666666&bgTextureOverlay=diagonals_thick&bgImgOpacityOverlay=20&opacityOverlay=50&bgColorShadow=000000&bgTextureShadow=flat&bgImgOpacityShadow=10&opacityShadow=20&thicknessShadow=5px&offsetTopShadow=-5px&offsetLeftShadow=-5px&cornerRadiusShadow=5px
+* Copyright 2014 jQuery Foundation and other contributors; Licensed MIT */
+
+.ui-helper-hidden{display:none}.ui-helper-hidden-accessible{border:0;clip:rect(0 0 0 0);height:1px;margin:-1px;overflow:hidden;padding:0;position:absolute;width:1px}.ui-helper-reset{margin:0;padding:0;border:0;outline:0;line-height:1.3;text-decoration:none;font-size:100%;list-style:none}.ui-helper-clearfix:before,.ui-helper-clearfix:after{content:"";display:table;border-collapse:collapse}.ui-helper-clearfix:after{clear:both}.ui-helper-clearfix{min-height:0}.ui-helper-zfix{width:100%;height:100%;top:0;left:0;position:absolute;opacity:0;filter:Alpha(Opacity=0)}.ui-front{z-index:100}.ui-state-disabled{cursor:default!important}.ui-icon{display:block;text-indent:-99999px;overflow:hidden;background-repeat:no-repeat}.ui-widget-overlay{position:fixed;top:0;left:0;width:100%;height:100%}.ui-menu{list-style:none;padding:0;margin:0;display:block;outline:none}.ui-menu .ui-menu{position:absolute}.ui-menu .ui-menu-item{position:relative;margin:0;padding:3px 1em 3px .4em;cursor:pointer;min-height:0;list-style-image:url("data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7")}.ui-menu .ui-menu-divider{margin:5px 0;height:0;font-size:0;line-height:0;border-width:1px 0 0 0}.ui-menu .ui-state-focus,.ui-menu .ui-state-active{margin:-1px}.ui-menu-icons{position:relative}.ui-menu-icons .ui-menu-item{padding-left:2em}.ui-menu .ui-icon{position:absolute;top:0;bottom:0;left:.2em;margin:auto 0}.ui-menu .ui-menu-icon{left:auto;right:0}.ui-selectmenu-menu{padding:0;margin:0;position:absolute;top:0;left:0;display:none}.ui-selectmenu-menu .ui-menu{overflow:auto;overflow-x:hidden;padding-bottom:0px}.ui-selectmenu-menu .ui-menu .ui-selectmenu-optgroup{font-size:1em;font-weight:bold;line-height:1.5;padding:2px 0.4em;margin:0.5em 0 0 0;height:auto;border:0}.ui-selectmenu-open{display:block}.ui-selectmenu-button{display:inline-block;overflow:hidden;position:relative;text-decoration:none;cursor:pointer}.ui-selectmenu-button span.ui-icon{right:0.5em;left:auto;margin-top:-8px;position:absolute;top:50%}.ui-selectmenu-button span.ui-selectmenu-text{text-align:left;padding:0.4em 2.1em 0.4em 1em;display:block;line-height:1.4;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}.ui-widget{font-family:Trebuchet MS,Tahoma,Verdana,Arial,sans-serif;font-size:1.1em}.ui-widget .ui-widget{font-size:1em}.ui-widget input,.ui-widget select,.ui-widget textarea,.ui-widget button{font-family:Trebuchet MS,Tahoma,Verdana,Arial,sans-serif;font-size:1em}.ui-widget-content{border:1px solid #ddd;color:#333}.ui-widget-content a{color:#333}.ui-widget-header{border:1px solid #e78f08;background:#f6a828 url("images/ui-bg_gloss-wave_35_f6a828_500x100.png") 50% 50% repeat-x;color:#fff;font-weight:bold}.ui-widget-header a{color:#fff}.ui-state-default,.ui-widget-content .ui-state-default,.ui-widget-header .ui-state-default{border:1px solid #ccc;background:#f6f6f6 url("images/ui-bg_glass_100_f6f6f6_1x400.png") 50% 50% repeat-x;font-weight:bold;color:#1c94c4}.ui-state-default a,.ui-state-default a:link,.ui-state-default a:visited{color:#1c94c4;text-decoration:none}.ui-state-hover,.ui-widget-content .ui-state-hover,.ui-widget-header .ui-state-hover,.ui-state-focus,.ui-widget-content .ui-state-focus,.ui-widget-header .ui-state-focus{border:1px solid #fbcb09;background:#fdf5ce url("images/ui-bg_glass_100_fdf5ce_1x400.png") 50% 50% repeat-x;font-weight:bold;color:#c77405}.ui-state-hover a,.ui-state-hover a:hover,.ui-state-hover a:link,.ui-state-hover a:visited,.ui-state-focus a,.ui-state-focus a:hover,.ui-state-focus a:link,.ui-state-focus a:visited{color:#c77405;text-decoration:none}.ui-state-active,.ui-widget-content .ui-state-active,.ui-widget-header .ui-state-active{border:1px solid #fbd850;background:#fff url("images/ui-bg_glass_65_ffffff_1x400.png") 50% 50% repeat-x;font-weight:bold;color:#eb8f00}.ui-state-active a,.ui-state-active a:link,.ui-state-active a:visited{color:#eb8f00;text-decoration:none}.ui-state-highlight,.ui-widget-content .ui-state-highlight,.ui-widget-header .ui-state-highlight{border:1px solid #fed22f;background:#ffe45c url("images/ui-bg_highlight-soft_75_ffe45c_1x100.png") 50% top repeat-x;color:#363636}.ui-state-highlight a,.ui-widget-content .ui-state-highlight a,.ui-widget-header .ui-state-highlight a{color:#363636}.ui-state-error,.ui-widget-content .ui-state-error,.ui-widget-header .ui-state-error{border:1px solid #cd0a0a;background:#b81900 url("images/ui-bg_diagonals-thick_18_b81900_40x40.png") 50% 50% repeat;color:#fff}.ui-state-error a,.ui-widget-content .ui-state-error a,.ui-widget-header .ui-state-error a{color:#fff}.ui-state-error-text,.ui-widget-content .ui-state-error-text,.ui-widget-header .ui-state-error-text{color:#fff}.ui-priority-primary,.ui-widget-content .ui-priority-primary,.ui-widget-header .ui-priority-primary{font-weight:bold}.ui-priority-secondary,.ui-widget-content .ui-priority-secondary,.ui-widget-header .ui-priority-secondary{opacity:.7;filter:Alpha(Opacity=70);font-weight:normal}.ui-state-disabled,.ui-widget-content .ui-state-disabled,.ui-widget-header .ui-state-disabled{opacity:.35;filter:Alpha(Opacity=35);background-image:none}.ui-state-disabled .ui-icon{filter:Alpha(Opacity=35)}.ui-icon{width:16px;height:16px}.ui-icon,.ui-widget-content .ui-icon{background-image:url("images/ui-icons_222222_256x240.png")}.ui-widget-header .ui-icon{background-image:url("images/ui-icons_ffffff_256x240.png")}.ui-state-default .ui-icon{background-image:url("images/ui-icons_ef8c08_256x240.png")}.ui-state-hover .ui-icon,.ui-state-focus .ui-icon{background-image:url("images/ui-icons_ef8c08_256x240.png")}.ui-state-active .ui-icon{background-image:url("images/ui-icons_ef8c08_256x240.png")}.ui-state-highlight .ui-icon{background-image:url("images/ui-icons_228ef1_256x240.png")}.ui-state-error .ui-icon,.ui-state-error-text .ui-icon{background-image:url("images/ui-icons_ffd27a_256x240.png")}.ui-icon-blank{background-position:16px 16px}.ui-icon-carat-1-n{background-position:0 0}.ui-icon-carat-1-ne{background-position:-16px 0}.ui-icon-carat-1-e{background-position:-32px 0}.ui-icon-carat-1-se{background-position:-48px 0}.ui-icon-carat-1-s{background-position:-64px 0}.ui-icon-carat-1-sw{background-position:-80px 0}.ui-icon-carat-1-w{background-position:-96px 0}.ui-icon-carat-1-nw{background-position:-112px 0}.ui-icon-carat-2-n-s{background-position:-128px 0}.ui-icon-carat-2-e-w{background-position:-144px 0}.ui-icon-triangle-1-n{background-position:0 -16px}.ui-icon-triangle-1-ne{background-position:-16px -16px}.ui-icon-triangle-1-e{background-position:-32px -16px}.ui-icon-triangle-1-se{background-position:-48px -16px}.ui-icon-triangle-1-s{background-position:-64px -16px}.ui-icon-triangle-1-sw{background-position:-80px -16px}.ui-icon-triangle-1-w{background-position:-96px -16px}.ui-icon-triangle-1-nw{background-position:-112px -16px}.ui-icon-triangle-2-n-s{background-position:-128px -16px}.ui-icon-triangle-2-e-w{background-position:-144px -16px}.ui-icon-arrow-1-n{background-position:0 -32px}.ui-icon-arrow-1-ne{background-position:-16px -32px}.ui-icon-arrow-1-e{background-position:-32px -32px}.ui-icon-arrow-1-se{background-position:-48px -32px}.ui-icon-arrow-1-s{background-position:-64px -32px}.ui-icon-arrow-1-sw{background-position:-80px -32px}.ui-icon-arrow-1-w{background-position:-96px -32px}.ui-icon-arrow-1-nw{background-position:-112px -32px}.ui-icon-arrow-2-n-s{background-position:-128px -32px}.ui-icon-arrow-2-ne-sw{background-position:-144px -32px}.ui-icon-arrow-2-e-w{background-position:-160px -32px}.ui-icon-arrow-2-se-nw{background-position:-176px -32px}.ui-icon-arrowstop-1-n{background-position:-192px -32px}.ui-icon-arrowstop-1-e{background-position:-208px -32px}.ui-icon-arrowstop-1-s{background-position:-224px -32px}.ui-icon-arrowstop-1-w{background-position:-240px -32px}.ui-icon-arrowthick-1-n{background-position:0 -48px}.ui-icon-arrowthick-1-ne{background-position:-16px -48px}.ui-icon-arrowthick-1-e{background-position:-32px -48px}.ui-icon-arrowthick-1-se{background-position:-48px -48px}.ui-icon-arrowthick-1-s{background-position:-64px -48px}.ui-icon-arrowthick-1-sw{background-position:-80px -48px}.ui-icon-arrowthick-1-w{background-position:-96px -48px}.ui-icon-arrowthick-1-nw{background-position:-112px -48px}.ui-icon-arrowthick-2-n-s{background-position:-128px -48px}.ui-icon-arrowthick-2-ne-sw{background-position:-144px -48px}.ui-icon-arrowthick-2-e-w{background-position:-160px -48px}.ui-icon-arrowthick-2-se-nw{background-position:-176px -48px}.ui-icon-arrowthickstop-1-n{background-position:-192px -48px}.ui-icon-arrowthickstop-1-e{background-position:-208px -48px}.ui-icon-arrowthickstop-1-s{background-position:-224px -48px}.ui-icon-arrowthickstop-1-w{background-position:-240px -48px}.ui-icon-arrowreturnthick-1-w{background-position:0 -64px}.ui-icon-arrowreturnthick-1-n{background-position:-16px -64px}.ui-icon-arrowreturnthick-1-e{background-position:-32px -64px}.ui-icon-arrowreturnthick-1-s{background-position:-48px -64px}.ui-icon-arrowreturn-1-w{background-position:-64px -64px}.ui-icon-arrowreturn-1-n{background-position:-80px -64px}.ui-icon-arrowreturn-1-e{background-position:-96px -64px}.ui-icon-arrowreturn-1-s{background-position:-112px -64px}.ui-icon-arrowrefresh-1-w{background-position:-128px -64px}.ui-icon-arrowrefresh-1-n{background-position:-144px -64px}.ui-icon-arrowrefresh-1-e{background-position:-160px -64px}.ui-icon-arrowrefresh-1-s{background-position:-176px -64px}.ui-icon-arrow-4{background-position:0 -80px}.ui-icon-arrow-4-diag{background-position:-16px -80px}.ui-icon-extlink{background-position:-32px -80px}.ui-icon-newwin{background-position:-48px -80px}.ui-icon-refresh{background-position:-64px -80px}.ui-icon-shuffle{background-position:-80px -80px}.ui-icon-transfer-e-w{background-position:-96px -80px}.ui-icon-transferthick-e-w{background-position:-112px -80px}.ui-icon-folder-collapsed{background-position:0 -96px}.ui-icon-folder-open{background-position:-16px -96px}.ui-icon-document{background-position:-32px -96px}.ui-icon-document-b{background-position:-48px -96px}.ui-icon-note{background-position:-64px -96px}.ui-icon-mail-closed{background-position:-80px -96px}.ui-icon-mail-open{background-position:-96px -96px}.ui-icon-suitcase{background-position:-112px -96px}.ui-icon-comment{background-position:-128px -96px}.ui-icon-person{background-position:-144px -96px}.ui-icon-print{background-position:-160px -96px}.ui-icon-trash{background-position:-176px -96px}.ui-icon-locked{background-position:-192px -96px}.ui-icon-unlocked{background-position:-208px -96px}.ui-icon-bookmark{background-position:-224px -96px}.ui-icon-tag{background-position:-240px -96px}.ui-icon-home{background-position:0 -112px}.ui-icon-flag{background-position:-16px -112px}.ui-icon-calendar{background-position:-32px -112px}.ui-icon-cart{background-position:-48px -112px}.ui-icon-pencil{background-position:-64px -112px}.ui-icon-clock{background-position:-80px -112px}.ui-icon-disk{background-position:-96px -112px}.ui-icon-calculator{background-position:-112px -112px}.ui-icon-zoomin{background-position:-128px -112px}.ui-icon-zoomout{background-position:-144px -112px}.ui-icon-search{background-position:-160px -112px}.ui-icon-wrench{background-position:-176px -112px}.ui-icon-gear{background-position:-192px -112px}.ui-icon-heart{background-position:-208px -112px}.ui-icon-star{background-position:-224px -112px}.ui-icon-link{background-position:-240px -112px}.ui-icon-cancel{background-position:0 -128px}.ui-icon-plus{background-position:-16px -128px}.ui-icon-plusthick{background-position:-32px -128px}.ui-icon-minus{background-position:-48px -128px}.ui-icon-minusthick{background-position:-64px -128px}.ui-icon-close{background-position:-80px -128px}.ui-icon-closethick{background-position:-96px -128px}.ui-icon-key{background-position:-112px -128px}.ui-icon-lightbulb{background-position:-128px -128px}.ui-icon-scissors{background-position:-144px -128px}.ui-icon-clipboard{background-position:-160px -128px}.ui-icon-copy{background-position:-176px -128px}.ui-icon-contact{background-position:-192px -128px}.ui-icon-image{background-position:-208px -128px}.ui-icon-video{background-position:-224px -128px}.ui-icon-script{background-position:-240px -128px}.ui-icon-alert{background-position:0 -144px}.ui-icon-info{background-position:-16px -144px}.ui-icon-notice{background-position:-32px -144px}.ui-icon-help{background-position:-48px -144px}.ui-icon-check{background-position:-64px -144px}.ui-icon-bullet{background-position:-80px -144px}.ui-icon-radio-on{background-position:-96px -144px}.ui-icon-radio-off{background-position:-112px -144px}.ui-icon-pin-w{background-position:-128px -144px}.ui-icon-pin-s{background-position:-144px -144px}.ui-icon-play{background-position:0 -160px}.ui-icon-pause{background-position:-16px -160px}.ui-icon-seek-next{background-position:-32px -160px}.ui-icon-seek-prev{background-position:-48px -160px}.ui-icon-seek-end{background-position:-64px -160px}.ui-icon-seek-start{background-position:-80px -160px}.ui-icon-seek-first{background-position:-80px -160px}.ui-icon-stop{background-position:-96px -160px}.ui-icon-eject{background-position:-112px -160px}.ui-icon-volume-off{background-position:-128px -160px}.ui-icon-volume-on{background-position:-144px -160px}.ui-icon-power{background-position:0 -176px}.ui-icon-signal-diag{background-position:-16px -176px}.ui-icon-signal{background-position:-32px -176px}.ui-icon-battery-0{background-position:-48px -176px}.ui-icon-battery-1{background-position:-64px -176px}.ui-icon-battery-2{background-position:-80px -176px}.ui-icon-battery-3{background-position:-96px -176px}.ui-icon-circle-plus{background-position:0 -192px}.ui-icon-circle-minus{background-position:-16px -192px}.ui-icon-circle-close{background-position:-32px -192px}.ui-icon-circle-triangle-e{background-position:-48px -192px}.ui-icon-circle-triangle-s{background-position:-64px -192px}.ui-icon-circle-triangle-w{background-position:-80px -192px}.ui-icon-circle-triangle-n{background-position:-96px -192px}.ui-icon-circle-arrow-e{background-position:-112px -192px}.ui-icon-circle-arrow-s{background-position:-128px -192px}.ui-icon-circle-arrow-w{background-position:-144px -192px}.ui-icon-circle-arrow-n{background-position:-160px -192px}.ui-icon-circle-zoomin{background-position:-176px -192px}.ui-icon-circle-zoomout{background-position:-192px -192px}.ui-icon-circle-check{background-position:-208px -192px}.ui-icon-circlesmall-plus{background-position:0 -208px}.ui-icon-circlesmall-minus{background-position:-16px -208px}.ui-icon-circlesmall-close{background-position:-32px -208px}.ui-icon-squaresmall-plus{background-position:-48px -208px}.ui-icon-squaresmall-minus{background-position:-64px -208px}.ui-icon-squaresmall-close{background-position:-80px -208px}.ui-icon-grip-dotted-vertical{background-position:0 -224px}.ui-icon-grip-dotted-horizontal{background-position:-16px -224px}.ui-icon-grip-solid-vertical{background-position:-32px -224px}.ui-icon-grip-solid-horizontal{background-position:-48px -224px}.ui-icon-gripsmall-diagonal-se{background-position:-64px -224px}.ui-icon-grip-diagonal-se{background-position:-80px -224px}.ui-corner-all,.ui-corner-top,.ui-corner-left,.ui-corner-tl{border-top-left-radius:4px}.ui-corner-all,.ui-corner-top,.ui-corner-right,.ui-corner-tr{border-top-right-radius:4px}.ui-corner-all,.ui-corner-bottom,.ui-corner-left,.ui-corner-bl{border-bottom-left-radius:4px}.ui-corner-all,.ui-corner-bottom,.ui-corner-right,.ui-corner-br{border-bottom-right-radius:4px}.ui-widget-overlay{background:#666 url("images/ui-bg_diagonals-thick_20_666666_40x40.png") 50% 50% repeat;opacity:.5;filter:Alpha(Opacity=50)}.ui-widget-shadow{margin:-5px 0 0 -5px;padding:5px;background:#000 url("images/ui-bg_flat_10_000000_40x100.png") 50% 50% repeat-x;opacity:.2;filter:Alpha(Opacity=20);border-radius:5px}
+	/* This is the default Tooltipster theme (feel free to modify or duplicate and create multiple themes!): */
+.tooltipster-default {
+	border-radius: 5px; 
+	border: 2px solid #000;
+	background: #4c4c4c;
+	color: #fff;
+}
+
+/* Use this next selector to style things like font-size and line-height: */
+.tooltipster-default .tooltipster-content {
+	font-family: Arial, sans-serif;
+	font-size: 14px;
+	line-height: 16px;
+	padding: 8px 10px;
+	overflow: hidden;
+}
+
+/* This next selector defines the color of the border on the outside of the arrow. This will automatically match the color and size of the border set on the main tooltip styles. Set display: none; if you would like a border around the tooltip but no border around the arrow */
+.tooltipster-default .tooltipster-arrow .tooltipster-arrow-border {
+	/* border-color: ... !important; */
+}
+
+
+/* If you're using the icon option, use this next selector to style them */
+.tooltipster-icon {
+	cursor: help;
+	margin-left: 4px;
+}
+
+
+
+
+
+
+
+
+/* This is the base styling required to make all Tooltipsters work */
+.tooltipster-base {
+	padding: 0;
+	font-size: 0;
+	line-height: 0;
+	position: absolute;
+	left: 0;
+	top: 0;
+	z-index: 9999999;
+	pointer-events: none;
+	width: auto;
+	overflow: visible;
+}
+.tooltipster-base .tooltipster-content {
+	overflow: hidden;
+}
+
+
+/* These next classes handle the styles for the little arrow attached to the tooltip. By default, the arrow will inherit the same colors and border as what is set on the main tooltip itself. */
+.tooltipster-arrow {
+	display: block;
+	text-align: center;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: -1;
+}
+.tooltipster-arrow span, .tooltipster-arrow-border {
+	display: block;
+	width: 0; 
+	height: 0;
+	position: absolute;
+}
+.tooltipster-arrow-top span, .tooltipster-arrow-top-right span, .tooltipster-arrow-top-left span {
+	border-left: 8px solid transparent !important;
+	border-right: 8px solid transparent !important;
+	border-top: 8px solid;
+	bottom: -7px;
+}
+.tooltipster-arrow-top .tooltipster-arrow-border, .tooltipster-arrow-top-right .tooltipster-arrow-border, .tooltipster-arrow-top-left .tooltipster-arrow-border {
+	border-left: 9px solid transparent !important;
+	border-right: 9px solid transparent !important;
+	border-top: 9px solid;
+	bottom: -7px;
+}
+
+.tooltipster-arrow-bottom span, .tooltipster-arrow-bottom-right span, .tooltipster-arrow-bottom-left span {
+	border-left: 8px solid transparent !important;
+	border-right: 8px solid transparent !important;
+	border-bottom: 8px solid;
+	top: -7px;
+}
+.tooltipster-arrow-bottom .tooltipster-arrow-border, .tooltipster-arrow-bottom-right .tooltipster-arrow-border, .tooltipster-arrow-bottom-left .tooltipster-arrow-border {
+	border-left: 9px solid transparent !important;
+	border-right: 9px solid transparent !important;
+	border-bottom: 9px solid;
+	top: -7px;
+}
+.tooltipster-arrow-top span, .tooltipster-arrow-top .tooltipster-arrow-border, .tooltipster-arrow-bottom span, .tooltipster-arrow-bottom .tooltipster-arrow-border {
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+}
+.tooltipster-arrow-top-left span, .tooltipster-arrow-bottom-left span {
+	left: 6px;
+}
+.tooltipster-arrow-top-left .tooltipster-arrow-border, .tooltipster-arrow-bottom-left .tooltipster-arrow-border {
+	left: 5px;
+}
+.tooltipster-arrow-top-right span,  .tooltipster-arrow-bottom-right span {
+	right: 6px;
+}
+.tooltipster-arrow-top-right .tooltipster-arrow-border, .tooltipster-arrow-bottom-right .tooltipster-arrow-border {
+	right: 5px;
+}
+.tooltipster-arrow-left span, .tooltipster-arrow-left .tooltipster-arrow-border {
+	border-top: 8px solid transparent !important;
+	border-bottom: 8px solid transparent !important; 
+	border-left: 8px solid;
+	top: 50%;
+	margin-top: -7px;
+	right: -7px;
+}
+.tooltipster-arrow-left .tooltipster-arrow-border {
+	border-top: 9px solid transparent !important;
+	border-bottom: 9px solid transparent !important; 
+	border-left: 9px solid;
+	margin-top: -8px;
+}
+.tooltipster-arrow-right span, .tooltipster-arrow-right .tooltipster-arrow-border {
+	border-top: 8px solid transparent !important;
+	border-bottom: 8px solid transparent !important; 
+	border-right: 8px solid;
+	top: 50%;
+	margin-top: -7px;
+	left: -7px;
+}
+.tooltipster-arrow-right .tooltipster-arrow-border {
+	border-top: 9px solid transparent !important;
+	border-bottom: 9px solid transparent !important; 
+	border-right: 9px solid;
+	margin-top: -8px;
+}
+
+
+/* Some CSS magic for the awesome animations - feel free to make your own custom animations and reference it in your Tooltipster settings! */
+
+.tooltipster-fade {
+	opacity: 0;
+	-webkit-transition-property: opacity;
+	-moz-transition-property: opacity;
+	-o-transition-property: opacity;
+	-ms-transition-property: opacity;
+	transition-property: opacity;
+}
+.tooltipster-fade-show {
+	opacity: 1;
+}
+
+.tooltipster-grow {
+	-webkit-transform: scale(0,0);
+	-moz-transform: scale(0,0);
+	-o-transform: scale(0,0);
+	-ms-transform: scale(0,0);
+	transform: scale(0,0);
+	-webkit-transition-property: -webkit-transform;
+	-moz-transition-property: -moz-transform;
+	-o-transition-property: -o-transform;
+	-ms-transition-property: -ms-transform;
+	transition-property: transform;
+	-webkit-backface-visibility: hidden;
+}
+.tooltipster-grow-show {
+	-webkit-transform: scale(1,1);
+	-moz-transform: scale(1,1);
+	-o-transform: scale(1,1);
+	-ms-transform: scale(1,1);
+	transform: scale(1,1);
+	-webkit-transition-timing-function: cubic-bezier(0.175, 0.885, 0.320, 1);
+	-webkit-transition-timing-function: cubic-bezier(0.175, 0.885, 0.320, 1.15); 
+	-moz-transition-timing-function: cubic-bezier(0.175, 0.885, 0.320, 1.15); 
+	-ms-transition-timing-function: cubic-bezier(0.175, 0.885, 0.320, 1.15); 
+	-o-transition-timing-function: cubic-bezier(0.175, 0.885, 0.320, 1.15); 
+	transition-timing-function: cubic-bezier(0.175, 0.885, 0.320, 1.15);
+}
+
+.tooltipster-swing {
+	opacity: 0;
+	-webkit-transform: rotateZ(4deg);
+	-moz-transform: rotateZ(4deg);
+	-o-transform: rotateZ(4deg);
+	-ms-transform: rotateZ(4deg);
+	transform: rotateZ(4deg);
+	-webkit-transition-property: -webkit-transform, opacity;
+	-moz-transition-property: -moz-transform;
+	-o-transition-property: -o-transform;
+	-ms-transition-property: -ms-transform;
+	transition-property: transform;
+}
+.tooltipster-swing-show {
+	opacity: 1;
+	-webkit-transform: rotateZ(0deg);
+	-moz-transform: rotateZ(0deg);
+	-o-transform: rotateZ(0deg);
+	-ms-transform: rotateZ(0deg);
+	transform: rotateZ(0deg);
+	-webkit-transition-timing-function: cubic-bezier(0.230, 0.635, 0.495, 1);
+	-webkit-transition-timing-function: cubic-bezier(0.230, 0.635, 0.495, 2.4); 
+	-moz-transition-timing-function: cubic-bezier(0.230, 0.635, 0.495, 2.4); 
+	-ms-transition-timing-function: cubic-bezier(0.230, 0.635, 0.495, 2.4); 
+	-o-transition-timing-function: cubic-bezier(0.230, 0.635, 0.495, 2.4); 
+	transition-timing-function: cubic-bezier(0.230, 0.635, 0.495, 2.4);
+}
+
+.tooltipster-fall {
+	top: 0;
+	-webkit-transition-property: top;
+	-moz-transition-property: top;
+	-o-transition-property: top;
+	-ms-transition-property: top;
+	transition-property: top;
+	-webkit-transition-timing-function: cubic-bezier(0.175, 0.885, 0.320, 1);
+	-webkit-transition-timing-function: cubic-bezier(0.175, 0.885, 0.320, 1.15); 
+	-moz-transition-timing-function: cubic-bezier(0.175, 0.885, 0.320, 1.15); 
+	-ms-transition-timing-function: cubic-bezier(0.175, 0.885, 0.320, 1.15); 
+	-o-transition-timing-function: cubic-bezier(0.175, 0.885, 0.320, 1.15); 
+	transition-timing-function: cubic-bezier(0.175, 0.885, 0.320, 1.15); 
+}
+.tooltipster-fall-show {
+}
+.tooltipster-fall.tooltipster-dying {
+	-webkit-transition-property: all;
+	-moz-transition-property: all;
+	-o-transition-property: all;
+	-ms-transition-property: all;
+	transition-property: all;
+	top: 0px !important;
+	opacity: 0;
+}
+
+.tooltipster-slide {
+	left: -40px;
+	-webkit-transition-property: left;
+	-moz-transition-property: left;
+	-o-transition-property: left;
+	-ms-transition-property: left;
+	transition-property: left;
+	-webkit-transition-timing-function: cubic-bezier(0.175, 0.885, 0.320, 1);
+	-webkit-transition-timing-function: cubic-bezier(0.175, 0.885, 0.320, 1.15); 
+	-moz-transition-timing-function: cubic-bezier(0.175, 0.885, 0.320, 1.15); 
+	-ms-transition-timing-function: cubic-bezier(0.175, 0.885, 0.320, 1.15); 
+	-o-transition-timing-function: cubic-bezier(0.175, 0.885, 0.320, 1.15); 
+	transition-timing-function: cubic-bezier(0.175, 0.885, 0.320, 1.15);
+}
+.tooltipster-slide.tooltipster-slide-show {
+}
+.tooltipster-slide.tooltipster-dying {
+	-webkit-transition-property: all;
+	-moz-transition-property: all;
+	-o-transition-property: all;
+	-ms-transition-property: all;
+	transition-property: all;
+	left: 0px !important;
+	opacity: 0;
+}
+
+
+/* CSS transition for when contenting is changing in a tooltip that is still open. The only properties that will NOT transition are: width, height, top, and left */
+.tooltipster-content-changing {
+	opacity: 0.5;
+	-webkit-transform: scale(1.1, 1.1);
+	-moz-transform: scale(1.1, 1.1);
+	-o-transform: scale(1.1, 1.1);
+	-ms-transform: scale(1.1, 1.1);
+	transform: scale(1.1, 1.1);
+}
+
+	@font-face {
+	    font-family: "GothamProRegular";
+	    src: url("../fonts/GothamProRegular/GothamProRegular.eot");
+	    src: url("../fonts/GothamProRegular/GothamProRegular.eot?#iefix")format("embedded-opentype"),
+	    url("../fonts/GothamProRegular/GothamProRegular.woff") format("woff"),
+	    url("../fonts/GothamProRegular/GothamProRegular.ttf") format("truetype");
+	    font-style: normal;
+	    font-weight: normal;
+	}
+	.bodydemo,
+	.bodydemo h1,
+	.bodydemo h2,
+	.bodydemo h3,
+	.bodydemo strong,
+	.bodydemo .qs {
+		font-family: "GothamProRegular" !important;
+	}
+	</style>
+</head>
+<body class="nohome">
+	<article>
+		<div class="container">
+			<h1>Шрифт Gotham Pro</h1>
+			
+<!-- 728*90 -->
+<div class="ad">
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fonts_big_download -->
+<ins class="adsbygoogle"
+     style="display:inline-block;width:980px;height:120px"
+     data-ad-client="ca-pub-5819559848186638"
+     data-ad-slot="7820070111"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+</div>
+			<div class="art_img">
+				<img src="fonts/GothamPro.png" alt="Шрифт Gotham Pro" />
+			</div>
+			<p>Начертания, входящие в состав архива со шрифтом: <span class="font_type">Regular, Bold, Black, Italic, Medium, Light, MediumItalic, LightItalic, BoldItalic, BlackItalic, </span>.</p>
+			<h3 id="test">Проверить русский шрифт Gotham Pro в действии</h3>
+			<form class="demo_url" target="_blank" action="/url.php" method="get">
+				<p>Введите или вставьте <strong>URL адрес страницы</strong>, к которой хотите применить шрифт:</p>
+				<input type="text" name="url" placeholder="Введите URL адрес страницы, например fonts4web.ru" required />
+				<input type="hidden" name="font" value="GothamProRegular" />
+				<button class="button durl" title="Посмотреть, как будет выглядеть">Открыть</button>
+			</form>
+			<p>Ниже напечатайте текст для проверки или вставьте HTML код из редактора. Также, вы можете выбрать начертание, размер шрифта и его регистр. Поддерживаются <span class="qs" title="Технология быстрого написания HTML кода">Emmet</span> сокращения для тестирования верстки.</p>
+			<div class="selects">
+				<select id="f_sel"></select>
+				<select id="gar_sel">
+					<option selected>Regular</option>
+					<option>Bold</option>
+					<option>Black</option>
+					<option>Italic</option>
+					<option>Medium</option>
+					<option>Light</option>
+					<option>MediumItalic</option>
+					<option>LightItalic</option>
+					<option>BoldItalic</option>
+					<option>BlackItalic</option>
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+				</select>
+				<select id="fz_sel">
+					<option value="14">14 px</option>
+					<option value="16">16 px</option>
+					<option value="18">18 px</option>
+					<option value="20">20 px</option>
+					<option value="24">24 px</option>
+					<option value="30">30 px</option>
+					<option value="42" selected>42 px</option>
+					<option value="64">64 px</option>
+					<option value="68">68 px</option>
+					<option value="80">80 px</option>
+					<option value="100">100 px</option>
+					<option value="120">120 px</option>
+				</select>
+				<select id="nu_sel">
+					<option value="normal">Normal</option>
+					<option value="uppercase">Uppercase</option>
+				</select>
+			</div>
+			<div class="demo">
+<pre id="idpre">Введите текст здесь...</pre>
+<iframe class="output" src="/iframe/iframe.html"></iframe>
+			</div>
+			<div class="ad" style="text-align:center">
+			<!-- Реклама -->
+			</div>
+
+---
+		<div id="os">
+			<h2>Как установить шрифт в ОС</h2>
+			<p>Для установки русского шрифта <strong>Gotham Pro</strong> в операционную систему, скопируйте файлы из архива, которые имеют расширение <strong>*.ttf</strong> в системную папку со шрифтами или воспользуйтесь штатным установщиком шрифтов. Для OC семейства Windows, папка со шрифтами находится здесь:<br/>
+				C:/Windows/<strong>Fonts</strong>.</p>
+				<p>После установки, шрифт Gotham Pro автоматически появится в списке шрифтов <strong>Photoshop</strong>.</p>
+</div>
+
+---
+<div id="css">
+			<h2>Подключение шрифта Gotham Pro в CSS</h2>
+			<p>1. Для того, чтобы установить <strong>шрифт Gotham Pro</strong> в свой HTML-проект, сперва скопируйте содержимое архива в папку /<strong>fonts</strong>, которая должна лежать в той-же директории, что и папка /css вашего HTML сайта.</p>
+			<div class="code filesys">
+<span>Структура проекта после установки шрифтов:</span>
+<pre>
+/ <span>(корневой каталог шаблона или проекта)</span><br/>
+    /fonts <span>(Шрифты из архива распаковываем в папку /fonts)</span>
+        /GothamProRegular<br/>        /GothamProBold<br/>        /GothamProBlack<br/>        /GothamProItalic<br/>        /GothamProMedium<br/>        /GothamProLight<br/>        /GothamProMediumItalic<br/>        /GothamProLightItalic<br/>        /GothamProBoldItalic<br/>        /GothamProBlackItalic<br/>
+    /css <span>(Папка со стилями должна находиться в той-же категории, что и /<strong>fonts</strong>)</span>
+        /stylename.css <span>(Файл стилей, в котором подключаются русские шрифты)</span>
+</pre>
+</div>
+<p>2. Далее вставляем код, указанный ниже, в файл стилей, который должен находиться в папке /<strong>css</strong>.</p>
+<span class="button select durl">Выделить код</span>
+<div class="code">
+<span>/* Код для подключения шрифта в /css/stylename.css */</span>
+<pre class="fontcode" id="fcode">
+<span>/* font-family: "GothamProRegular"; */</span>
+@font-face {
+    font-family: "GothamProRegular";
+    src: url("../fonts/GothamProRegular/GothamProRegular.eot");
+    src: url("../fonts/GothamProRegular/GothamProRegular.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/GothamProRegular/GothamProRegular.woff") format("woff"),
+    url("../fonts/GothamProRegular/GothamProRegular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}<br/><span>/* font-family: "GothamProBold"; */</span>
+@font-face {
+    font-family: "GothamProBold";
+    src: url("../fonts/GothamProBold/GothamProBold.eot");
+    src: url("../fonts/GothamProBold/GothamProBold.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/GothamProBold/GothamProBold.woff") format("woff"),
+    url("../fonts/GothamProBold/GothamProBold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}<br/><span>/* font-family: "GothamProBlack"; */</span>
+@font-face {
+    font-family: "GothamProBlack";
+    src: url("../fonts/GothamProBlack/GothamProBlack.eot");
+    src: url("../fonts/GothamProBlack/GothamProBlack.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/GothamProBlack/GothamProBlack.woff") format("woff"),
+    url("../fonts/GothamProBlack/GothamProBlack.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}<br/><span>/* font-family: "GothamProItalic"; */</span>
+@font-face {
+    font-family: "GothamProItalic";
+    src: url("../fonts/GothamProItalic/GothamProItalic.eot");
+    src: url("../fonts/GothamProItalic/GothamProItalic.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/GothamProItalic/GothamProItalic.woff") format("woff"),
+    url("../fonts/GothamProItalic/GothamProItalic.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}<br/><span>/* font-family: "GothamProMedium"; */</span>
+@font-face {
+    font-family: "GothamProMedium";
+    src: url("../fonts/GothamProMedium/GothamProMedium.eot");
+    src: url("../fonts/GothamProMedium/GothamProMedium.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/GothamProMedium/GothamProMedium.woff") format("woff"),
+    url("../fonts/GothamProMedium/GothamProMedium.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}<br/><span>/* font-family: "GothamProLight"; */</span>
+@font-face {
+    font-family: "GothamProLight";
+    src: url("../fonts/GothamProLight/GothamProLight.eot");
+    src: url("../fonts/GothamProLight/GothamProLight.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/GothamProLight/GothamProLight.woff") format("woff"),
+    url("../fonts/GothamProLight/GothamProLight.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}<br/><span>/* font-family: "GothamProMediumItalic"; */</span>
+@font-face {
+    font-family: "GothamProMediumItalic";
+    src: url("../fonts/GothamProMediumItalic/GothamProMediumItalic.eot");
+    src: url("../fonts/GothamProMediumItalic/GothamProMediumItalic.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/GothamProMediumItalic/GothamProMediumItalic.woff") format("woff"),
+    url("../fonts/GothamProMediumItalic/GothamProMediumItalic.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}<br/><span>/* font-family: "GothamProLightItalic"; */</span>
+@font-face {
+    font-family: "GothamProLightItalic";
+    src: url("../fonts/GothamProLightItalic/GothamProLightItalic.eot");
+    src: url("../fonts/GothamProLightItalic/GothamProLightItalic.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/GothamProLightItalic/GothamProLightItalic.woff") format("woff"),
+    url("../fonts/GothamProLightItalic/GothamProLightItalic.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}<br/><span>/* font-family: "GothamProBoldItalic"; */</span>
+@font-face {
+    font-family: "GothamProBoldItalic";
+    src: url("../fonts/GothamProBoldItalic/GothamProBoldItalic.eot");
+    src: url("../fonts/GothamProBoldItalic/GothamProBoldItalic.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/GothamProBoldItalic/GothamProBoldItalic.woff") format("woff"),
+    url("../fonts/GothamProBoldItalic/GothamProBoldItalic.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}<br/><span>/* font-family: "GothamProBlackItalic"; */</span>
+@font-face {
+    font-family: "GothamProBlackItalic";
+    src: url("../fonts/GothamProBlackItalic/GothamProBlackItalic.eot");
+    src: url("../fonts/GothamProBlackItalic/GothamProBlackItalic.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/GothamProBlackItalic/GothamProBlackItalic.woff") format("woff"),
+    url("../fonts/GothamProBlackItalic/GothamProBlackItalic.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}<br/>
+</pre>
+</div>
+</div>
+<div class="ad">
+<!-- Реклама -->
+</div>
+<div class="center">
+<a href="download.html?font=GothamPro" class="button download down_2" target="_blank">Скачать шрифт <span>Gotham Pro</span></a>
+</div>
+		</div>
+	</article>
+	<header>
+		
+		<a class="logo" href="/">Fonts4Web<sup>.ru</sup></a>
+		<div class="logo_descr"><strong>Русские шрифты</strong> в комплектации <span><strong>TTF</strong> + <strong>WOFF</strong> + <strong>EOT</strong></span></div>
+		
+		<input type="hidden" name="hidden" value="GothamPro" />
+		<input type="hidden" name="hfz" value="16" />
+		<input type="hidden" name="nu" value="normal" />
+	</header>
+	
+	<footer>
+		<div class="container">
+			<div class="right">
+				<a class="back" href="#holders">Правообладателям:</a>
+<!--LiveInternet counter-->
+			</div>
+		</div>
+	</footer>
+	<div class="hidden">
+		<form id="callback">
+			<h3>Предложить шрифт:</h3>
+			<p>Напишите название шрифта или укажите ссылку на страницу, где он используется.</p>
+			<input name="fname" type="text" placeholder="Название шрифта (если знаете)" />
+			<input name="furl" type="text" placeholder="Страница, где используется (адрес URL)" />
+			<textarea name="fcom" placeholder="Комментарий"></textarea>
+			<button class="button red">Отправить</button>
+		</form>
+		<div id="holders" class="popup_text">
+			<h3>Внимание!</h3>
+			<p>Все шрифты, представленные на данном сайте были найдены в свободных источниках и автор проекта может не знать о наличии авторских прав на какой-либо шрифт изначально.</p>
+			<p>Если вы являетесь создателем какого-либо шрифта и считаете, что ваши права нарушены, напишите об этом на почту , указав ссылку на материал, подтверждающий ваше авторское право.</p>
+			<p>В случае, если вы или ваша компания действительно является автором платного шрифта, ваш шрифт будет немедленно удален с данного сайта.</p>
+			<p>Если вы являетесь автором бесплатного шрифта, назовите ваше имя или название вашей организации, в которой был разработан шрифт. Также, вы можете указать ссылку на ваш личный сайт или на сайт организации, в которой был разработан бесплатный шрифт. Данная информация будет отображена на странице соответствующего шрифта по вашему требованию.</p>
+			<hr/>
+			<h3>Warning!</h3>
+			<p>All fonts presented on this site were found in free sources and author of the project may not be aware of a copyright holder of any font originally.</p>
+			<p>If you are the creator of a font and feel that your rights have been violated, write about it in the mail , indicating a link to the material confirming your copyright.</p>
+			<p>If you or your company really is the author paid font, your font will be immediately removed from the site.</p>
+			<p>If you are the author of a free font, call your name or the name of your organization, which was designed font. Also, you can provide a link to your personal website or on the website of the organization, which has been designed free font. This information will be immediately displayed on the page of the corresponding font.</p>
+		</div>
+	</div>
+	<script src="template/libs/jquery/jquery-1.11.1.min.js"></script>
+	<script src="template/libs/fancybox/jquery.fancybox.pack.js"></script>
+	
+	<script src="template/libs/jquery/jquery-ui.min.js"></script>
+	<script src="template/libs/emmet/emmet.js"></script>
+	<script src="template/libs/ace/ace.js"></script>
+	<script src="template/libs/ace/ext-emmet.js"></script>
+	<script src="template/libs/tooltipster/jquery.tooltipster.min.js"></script>
+	
+	
+	<script src="template/js/common.js"></script><script src="template/js/liveeditor.js"></script>
+<!-- Yandex.Metrika counter -->
+<script type="text/javascript">
+(function (d, w, c) {
+    (w[c] = w[c] || []).push(function() {
+        try {
+            w.yaCounter29628750 = new Ya.Metrika({id:29628750,
+                    clickmap:true,
+                    trackLinks:true,
+                    accurateTrackBounce:true});
+        } catch(e) { }
+    });
+
+    var n = d.getElementsByTagName("script")[0],
+        s = d.createElement("script"),
+        f = function () { n.parentNode.insertBefore(s, n); };
+    s.type = "text/javascript";
+    s.async = true;
+    s.src = (d.location.protocol == "https:" ? "https:" : "http:") + "//mc.yandex.ru/metrika/watch.js";
+
+    if (w.opera == "[object Opera]") {
+        d.addEventListener("DOMContentLoaded", f, false);
+    } else { f(); }
+})(document, window, "yandex_metrika_callbacks");
+</script>
+<noscript><div><img src="//mc.yandex.ru/watch/29628750" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<!-- /Yandex.Metrika counter -->
+	<!-- Google Analytics counter --><!-- /Google Analytics counter -->
+</body>
+</html>
