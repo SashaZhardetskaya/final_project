@@ -1,0 +1,42 @@
+@import './bootstrap.min';
+$font-stack:    Helvetica, sans-serif;
+
+.home {
+	height: 100vh;
+	background: url(../img/crafted_splash.jpg) center center no-repeat;
+	background-attachment: fixed;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+
+.projects-img {
+	padding: 0;
+	img {
+	width: 100%;
+	}
+}
+
+.projects-title {
+	text-align: center;
+	text-transform: uppercase;
+	color: #333;
+	font-weight: 300;
+    font-size: 30px;
+    letter-spacing: 5px;
+}
+
+.see-all-work {
+	.see-all-work_padding {
+		padding: 0;
+	}
+	.services {
+		background-color: #02243e;
+		height: 100px;
+	}
+	.works {
+		@extend .services;
+		background-color: #031e32;
+	}
+}
