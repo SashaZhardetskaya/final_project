@@ -7613,6 +7613,9 @@ button.close {
       color: #35bdf6; }
 
 .home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   height: 100vh;
   background: url(../img/crafted_splash.jpg) center center no-repeat;
   background-attachment: fixed;
@@ -7620,6 +7623,25 @@ button.close {
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover; }
+
+.home-page-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  max-width: 400px;
+  color: white; }
+  .home-page-content .main-logo {
+    width: 200px;
+    height: auto; }
+
+.animated-button span {
+  width: 30px;
+  height: 30px;
+  display: block;
+  background: url(../img/icon_arrow_light.svg) no-repeat center center #35bdf6;
+  background-size: 12px;
+  border-radius: 100%; }
 
 .projects-img {
   padding: 0; }
