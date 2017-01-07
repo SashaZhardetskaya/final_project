@@ -2,7 +2,7 @@ var mmenu = 'close';
 
 $(document).ready(function(){
 	$('.menu-burger').on('click', showMmenu);
-	
+
 });
 
 function showMmenu(){
@@ -21,3 +21,5 @@ function showMmenu(){
 	$('.close-icon').fadeOut(800);
 	}
 }
+
+
