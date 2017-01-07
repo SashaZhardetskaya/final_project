@@ -7545,6 +7545,73 @@ button.close {
   font-weight: 900;
   font-style: normal; }
 
+.see-all-work a, .designed-developed-nyc a {
+  padding: 12px 40px;
+  color: white;
+  border: 3px solid;
+  border-radius: 0px;
+  text-decoration: none;
+  font-family: Gotham;
+  cursor: pointer; }
+  .see-all-work a:hover, .designed-developed-nyc a:hover, .see-all-work a:focus, .designed-developed-nyc a:focus {
+    color: #35bdf6;
+    outline: 5px auto -webkit-focus-ring-color; }
+
+.menu {
+  display: none;
+  z-index: 1;
+  position: fixed;
+  height: 100vh;
+  width: 100%;
+  padding: 0;
+  background: rgba(3, 30, 50, 0.95);
+  background-attachment: fixed;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover; }
+
+.menu-burger {
+  z-index: 2;
+  position: fixed;
+  top: 45px;
+  right: 45px;
+  border: none;
+  background-color: inherit;
+  color: #35bdf6;
+  outline: none; }
+  .menu-burger .burger-icon {
+    display: block; }
+  .menu-burger .close-icon {
+    display: none; }
+
+.menu-list {
+  margin-top: 20vh;
+  padding: 0;
+  list-style-type: none;
+  text-transform: uppercase; }
+
+.menu-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  text-decoration: none;
+  font-size: 22px;
+  line-height: 75px; }
+  .menu-item:active, .menu-item:hover, .menu-item:focus {
+    color: #35bdf6;
+    background-color: white;
+    outline: 5px auto white; }
+    .menu-item:active a, .menu-item:hover a, .menu-item:focus a {
+      color: #35bdf6; }
+  .menu-item a {
+    text-decoration: none;
+    color: white; }
+    .menu-item a:active, .menu-item a:hover, .menu-item a:focus {
+      outline: none;
+      color: #35bdf6; }
+
 .home {
   height: 100vh;
   background: url(../img/crafted_splash.jpg) center center no-repeat;
@@ -7569,11 +7636,101 @@ button.close {
   letter-spacing: 5px; }
 
 .see-all-work .see-all-work_padding {
-  padding: 0; }
+  padding: 0;
+  text-transform: uppercase; }
 
 .see-all-work .services, .see-all-work .works {
+  padding: 30px 0 20px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   background-color: #02243e;
-  height: 100px; }
+  color: white; }
+  .see-all-work .services h2, .see-all-work .works h2 {
+    text-transform: uppercase;
+    font-family: Gotham; }
 
 .see-all-work .works {
   background-color: #031e32; }
+
+.recognition {
+  background-color: #F6F6F6;
+  text-align: center; }
+
+.icon-box {
+  width: 50%;
+  height: 100px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; }
+
+.clients {
+  text-align: center; }
+
+.designed-developed-nyc {
+  background-color: #031e32;
+  color: white; }
+  .designed-developed-nyc .img-background {
+    height: 300px;
+    content: '';
+    display: block;
+    background: url(../img/dandnyc.svg) no-repeat 50% 50%;
+    background-size: 200px auto; }
+  .designed-developed-nyc h2 {
+    text-transform: uppercase; }
+
+.work-together {
+  text-align: center; }
+
+.contact .contact_padding {
+  padding: 0; }
+
+.contact .for-business, .contact .for-team {
+  padding: 30px 0 20px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #06385d;
+  color: white; }
+
+.contact .for-team {
+  background-color: #1f5e88; }
+
+.contact h3 {
+  text-transform: uppercase; }
+
+.contact .map {
+  height: 400px;
+  background: url(../img/crafted_map.jpg) center center no-repeat;
+  background-size: cover; }
+  .contact .map a {
+    height: 400px; }
+
+footer {
+  background-color: #031e32;
+  color: white; }
+  footer a {
+    color: #35bdf6;
+    text-decoration: none; }
+    footer a:active, footer a:hover, footer a:focus {
+      outline: 0;
+      color: #16a9e1;
+      text-decoration: none; }
+  footer .social-links i {
+    padding-right: 20px;
+    font-size: 22px; }
+  footer ul {
+    padding: 0;
+    list-style-type: none;
+    color: white;
+    line-height: 24px; }
+  footer .footer-col-right {
+    text-align: right; }
+    @media (max-width: 768px) {
+      footer .footer-col-right {
+        text-align: left; } }
+
+.footer-logo {
+  width: 130px;
+  height: auto; }

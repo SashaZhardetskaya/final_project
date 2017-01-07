@@ -1,9 +1,92 @@
 @import './bootstrap.min';
-@import './font-awesome-4.7.0/scss/font-awesome';
+@import 'font-awesome-4.7.0/scss/font-awesome';
 @import './fonts';
 
 
 // $font-stack:    Helvetica, sans-serif;
+
+%link-button {  //extend this to <a>
+	padding: 12px 40px;
+	color: white;
+    border: 3px solid;
+    border-radius: 0px;
+    text-decoration: none;
+    font-family: Gotham;
+    // font-style: normal;
+    // font-weight: 500;
+    cursor: pointer;
+    &:hover, &:focus {
+    	color: #35bdf6;
+    	outline: 5px auto -webkit-focus-ring-color;
+    }
+}
+
+.menu {
+	display: none;
+	//display: block;
+	z-index: 1;
+	position: fixed;
+	height: 100vh;
+	width: 100%;
+	padding: 0;
+	background: rgba(3,30,50,.95);
+	background-attachment: fixed;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;	
+}
+.menu-burger {
+	z-index: 2;
+	position: fixed;
+	top: 45px;
+	right: 45px;
+	border: none;
+	background-color: inherit;
+	color: #35bdf6;
+	outline: none;
+	.burger-icon {
+		display: block;
+	}
+	.close-icon {
+		display: none;
+	}
+}
+
+.menu-list {
+	margin-top: 20vh;
+	padding: 0;
+	list-style-type: none;
+	text-transform: uppercase;
+}
+
+.menu-item {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 100%;
+	text-decoration: none;
+	font-size: 22px;
+	line-height: 75px;
+	&:active, &:hover, &:focus {
+		color: #35bdf6;
+		background-color: white;
+		outline: 5px auto white;
+		a {
+			color: #35bdf6;
+		}
+	}
+	a {
+		text-decoration: none;
+		color: white;
+		&:active, &:hover, &:focus {
+			outline: none;
+			color: #35bdf6;
+		}
+	}
+}
+
+
 
 .home {
 	height: 100vh;
@@ -35,13 +118,142 @@
 .see-all-work {
 	.see-all-work_padding {
 		padding: 0;
+		text-transform: uppercase;
 	}
 	.services {
+		padding: 30px 0 20px 0;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
 		background-color: #02243e;
-		height: 100px;
+		color: white;
+		h2 {
+			text-transform: uppercase;
+			font-family: Gotham;
+		}
 	}
 	.works {
 		@extend .services;
 		background-color: #031e32;
 	}
+	a {
+		@extend %link-button;
+	}
+}
+
+.recognition {
+	background-color: #F6F6F6;
+	text-align: center;
+}
+
+.icon-box {
+	width: 50%;
+	height: 100px;
+	margin: auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.clients {
+	text-align: center;
+}
+
+// .logo-background-img (and span in html)
+
+//  @each $name in dashboard, paper, paint, comment, link, comment-single, email-alert, heart {
+// 	.icon_#{$name} {
+// 		width: 90px;
+// 		height: 90px;
+// 		padding: 0px;
+// 		background: url(img/#{$name}.png) no-repeat 50% 50%;
+// 	}
+// }
+
+.designed-developed-nyc {
+	background-color: #031e32;
+	color: white;
+	.img-background {
+		height: 300px;
+		content: '';
+		display: block;
+		background: url(../img/dandnyc.svg) no-repeat 50% 50%;
+		background-size: 200px auto;
+	}
+	h2 {
+		text-transform: uppercase;
+	}
+	a {
+		@extend %link-button;
+	}
+}
+
+.work-together {
+	text-align: center;
+}
+
+.contact {
+	.contact_padding {
+		padding: 0;
+	}
+	.for-business {
+		padding: 30px 0 20px 0;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		background-color: #06385d;
+		color: white;
+	}
+	.for-team {
+		@extend .for-business;
+		background-color: #1f5e88;
+	}
+	h3 {
+		text-transform: uppercase;
+	}
+	.map {
+		height: 400px;
+		background: url(../img/crafted_map.jpg) center center no-repeat;
+	    background-size: cover;
+	    a {
+	    	height: 400px;
+	    }
+	}
+}
+
+footer {
+	background-color: #031e32;
+	color: white;
+	a {
+		color: #35bdf6;
+		text-decoration: none;
+		&:active, &:hover, &:focus {
+	    outline: 0;
+	    color: #16a9e1;
+	    text-decoration: none;
+		}
+	}
+	.social-links {
+		i {
+			padding-right: 20px;
+			font-size: 22px;
+		}
+	}
+	ul {
+		padding: 0;
+		list-style-type: none;
+		color: white;
+		line-height: 24px;
+	}
+	.footer-col-right {
+		text-align: right;
+		@media (max-width: 768px) {
+			text-align: left;
+		}
+	}
+}
+
+.footer-logo {
+	width: 130px;
+    height: auto;
 }
