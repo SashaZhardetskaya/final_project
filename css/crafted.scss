@@ -1,6 +1,30 @@
 @import './bootstrap.min';
+@import './animate.min';
 @import 'font-awesome-4.7.0/scss/font-awesome';
 @import './fonts';
+
+
+#page-preloader {
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background: #031e32;
+    z-index: 111;
+    .animated-logo {
+	    width: 300px;
+	    height: 300px;
+	    position: absolute;
+	    // left: 50%;
+	    // top: 50%;
+	    background: url('../img/crafted_logo.svg') no-repeat ; //50% 50%
+	    margin: auto;
+	}
+}
 
 
 // $font-stack:    Helvetica, sans-serif;

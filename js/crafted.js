@@ -1,9 +1,20 @@
 var mmenu = 'close';
 
 $(document).ready(function(){
-	$('.menu-burger').on('click', showMmenu);
-
+    var $preloader = $('#page-preloader'),
+        $animatedLogo   = $preloader.find('.animated-logo');
+   // $animatedLogo.fadeOut();
+    $preloader.delay(1100).fadeOut('slow');
 });
+	
+
+
+$(document).ready(function(){
+	new WOW().init();
+    $('.menu-burger').on('click', showMmenu);
+});
+
+
 
 function showMmenu(){
 	if (mmenu=='close') { 
@@ -21,5 +32,7 @@ function showMmenu(){
 	$('.close-icon').fadeOut(800);
 	}
 }
+
+
 
 
