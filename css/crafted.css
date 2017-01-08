@@ -9888,26 +9888,6 @@ button.close {
   font-weight: 900;
   font-style: normal; }
 
-#page-preloader {
-  position: fixed;
-  height: 100vh;
-  width: auto;
-  left: 0;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  background: #031e32;
-  z-index: 111; }
-  #page-preloader .animated-logo {
-    width: 300px;
-    height: 300px;
-    position: absolute;
-    top: 50vh;
-    left: 50vh;
-    right: 50vh;
-    background: url("../img/crafted_logo.svg") no-repeat;
-    margin: auto; }
-
 .see-all-work a, .designed-developed-nyc a {
   padding: 12px 40px;
   color: white;
@@ -9919,6 +9899,26 @@ button.close {
   .see-all-work a:hover, .designed-developed-nyc a:hover, .see-all-work a:focus, .designed-developed-nyc a:focus {
     color: #35bdf6;
     outline: 5px auto -webkit-focus-ring-color; }
+
+#page-preloader {
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: auto;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  background: #031e32;
+  z-index: 111; }
+  #page-preloader .animated-logo {
+    display: block;
+    width: 40%;
+    height: 40%;
+    background: url("../img/crafted_logo.svg") no-repeat;
+    margin: auto; }
 
 .menu {
   display: none;
