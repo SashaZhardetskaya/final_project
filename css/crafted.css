@@ -9890,9 +9890,8 @@ button.close {
 
 #page-preloader {
   position: fixed;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  height: 100vh;
+  width: auto;
   left: 0;
   top: 0;
   right: 0;
@@ -9903,6 +9902,9 @@ button.close {
     width: 300px;
     height: 300px;
     position: absolute;
+    top: 50vh;
+    left: 50vh;
+    right: 50vh;
     background: url("../img/crafted_logo.svg") no-repeat;
     margin: auto; }
 

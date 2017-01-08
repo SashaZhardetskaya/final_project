@@ -6,9 +6,11 @@
 
 #page-preloader {
     position: fixed;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    // display: flex;
+    // justify-content: center;
+    // align-items: center;
+    height: 100vh;
+    width: auto;
     left: 0;
     top: 0;
     right: 0;
@@ -19,6 +21,9 @@
 	    width: 300px;
 	    height: 300px;
 	    position: absolute;
+	    top: 50vh;
+	    left: 50vh;
+	    right: 50vh;
 	    // left: 50%;
 	    // top: 50%;
 	    background: url('../img/crafted_logo.svg') no-repeat ; //50% 50%
