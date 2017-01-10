@@ -9968,7 +9968,9 @@ button.close {
   border: 3px solid;
   border-radius: 0px;
   text-decoration: none;
-  font-family: Gotham;
+  text-transform: uppercase;
+  font-family: "GothamProRegular";
+  font-size: 12px;
   cursor: pointer; }
   .see-all-work a:hover, .designed-developed-nyc a:hover, .see-all-work a:focus, .designed-developed-nyc a:focus {
     color: #35bdf6;
@@ -10165,19 +10167,20 @@ button.close {
     vertical-align: bottom; }
 
 .projects-title {
+  padding: 100px 0 50px 0;
   text-align: center;
   text-transform: uppercase;
   color: #333;
-  font-family: "GothamProBoldItalic";
-  font-weight: 900;
+  font-family: "GothamProLight";
   letter-spacing: 5px; }
 
 .see-all-work .see-all-work_padding {
+  margin-top: 100px;
   padding: 0;
   text-transform: uppercase; }
 
 .see-all-work .services, .see-all-work .works {
-  padding: 30px 0 20px 0;
+  padding: 75px 0 75px 0;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -10185,14 +10188,27 @@ button.close {
   color: white; }
   .see-all-work .services h2, .see-all-work .works h2 {
     text-transform: uppercase;
-    font-family: Gotham; }
+    font-family: "GothamProRegular";
+    font-size: 17px; }
 
 .see-all-work .works {
   background-color: #031e32; }
 
 .recognition {
+  padding: 100px 0 100px 0;
   background-color: #F6F6F6;
   text-align: center; }
+  .recognition h1 {
+    text-transform: uppercase;
+    color: #333;
+    font-family: "GothamProLight";
+    letter-spacing: 5px; }
+  .recognition p {
+    font-family: "GothamProRegular";
+    font-size: 15px; }
+
+.client-logo {
+  margin-top: 25px; }
 
 .icon-box {
   width: 50%;
@@ -10203,7 +10219,16 @@ button.close {
   justify-content: center; }
 
 .clients {
+  padding: 100px 0 100px 0;
   text-align: center; }
+  .clients h1 {
+    text-transform: uppercase;
+    color: #333;
+    font-family: "GothamProLight";
+    letter-spacing: 5px; }
+  .clients p {
+    font-family: "GothamProRegular";
+    font-size: 15px; }
 
 .designed-developed-nyc {
   background-color: #031e32;
@@ -10218,7 +10243,16 @@ button.close {
     text-transform: uppercase; }
 
 .work-together {
+  padding: 70px 0 70px 0;
   text-align: center; }
+  .work-together h1 {
+    text-transform: uppercase;
+    color: #333;
+    font-family: "GothamProLight";
+    letter-spacing: 5px; }
+  .work-together p {
+    font-family: "GothamProRegular";
+    font-size: 15px; }
 
 .contact .contact_padding {
   padding: 0; }

@@ -15,9 +15,9 @@
     border: 3px solid;
     border-radius: 0px;
     text-decoration: none;
-    font-family: Gotham;
-    // font-style: normal;
-    // font-weight: 500;
+    text-transform: uppercase;
+	font-family: "GothamProRegular";
+	font-size: 12px;
     cursor: pointer;
     &:hover, &:focus {
     	color: #35bdf6;
@@ -261,22 +261,23 @@
 	}
 }
 
-.projects-title {	
+.projects-title {
+	padding: 100px 0 50px 0;
 	text-align: center;
 	text-transform: uppercase;
 	color: #333;	
-	font-family: "GothamProBoldItalic";
-	font-weight: 900;
+	font-family: "GothamProLight";
     letter-spacing: 5px;
 }
 
 .see-all-work {
 	.see-all-work_padding {
+		margin-top: 100px;
 		padding: 0;
 		text-transform: uppercase;
 	}
 	.services {
-		padding: 30px 0 20px 0;
+		padding: 75px 0 75px 0;
 		display: flex;
 		flex-direction: column;
 		align-items: center;
@@ -284,7 +285,8 @@
 		color: white;
 		h2 {
 			text-transform: uppercase;
-			font-family: Gotham;
+			font-family: "GothamProRegular";
+			font-size: 17px;
 		}
 	}
 	.works {
@@ -297,9 +299,25 @@
 }
 
 .recognition {
+	padding: 100px 0 100px 0;
 	background-color: #F6F6F6;
 	text-align: center;
+	h1 {
+	text-transform: uppercase;
+	color: #333;	
+	font-family: "GothamProLight";
+    letter-spacing: 5px;
+	}
+	p {
+		font-family: "GothamProRegular";
+		font-size: 15px;
+	}
 }
+
+.client-logo {
+	margin-top: 25px;
+}
+
 
 .icon-box {
 	width: 50%;
@@ -311,7 +329,18 @@
 }
 
 .clients {
+	padding: 100px 0 100px 0;
 	text-align: center;
+	h1 {
+	text-transform: uppercase;
+	color: #333;	
+	font-family: "GothamProLight";
+    letter-spacing: 5px;
+	}
+	p {
+		font-family: "GothamProRegular";
+		font-size: 15px;
+	}
 }
 
 // .logo-background-img (and span in html)
@@ -344,7 +373,18 @@
 }
 
 .work-together {
+	padding: 70px 0 70px 0;
 	text-align: center;
+	h1 {
+	text-transform: uppercase;
+	color: #333;	
+	font-family: "GothamProLight";
+    letter-spacing: 5px;
+	}
+	p {
+		font-family: "GothamProRegular";
+		font-size: 15px;
+	}
 }
 
 .contact {
