@@ -9976,6 +9976,10 @@ button.close {
     color: #35bdf6;
     outline: 5px auto -webkit-focus-ring-color; }
 
+.myrow {
+  margin-right: 0;
+  margin-left: 0; }
+
 #page-preloader {
   position: fixed;
   display: flex;

@@ -25,6 +25,14 @@
     }
 }
 
+
+.myrow { //cancel bootstrap standart row settings
+	margin-right: 0;
+    margin-left: 0;
+}
+
+
+
 #page-preloader {
     position: fixed;
     display: flex;
@@ -376,10 +384,10 @@
 	padding: 70px 0 70px 0;
 	text-align: center;
 	h1 {
-	text-transform: uppercase;
-	color: #333;	
-	font-family: "GothamProLight";
-    letter-spacing: 5px;
+		text-transform: uppercase;
+		color: #333;	
+		font-family: "GothamProLight";
+		letter-spacing: 5px;
 	}
 	p {
 		font-family: "GothamProRegular";
