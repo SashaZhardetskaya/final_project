@@ -10235,6 +10235,7 @@ button.close {
     font-size: 15px; }
 
 .designed-developed-nyc {
+  padding: 80px 0 80px 0;
   background-color: #031e32;
   color: white; }
   .designed-developed-nyc .img-background {
@@ -10244,7 +10245,19 @@ button.close {
     background: url(../img/dandnyc.svg) no-repeat 50% 50%;
     background-size: 200px auto; }
   .designed-developed-nyc h2 {
-    text-transform: uppercase; }
+    margin: 25px 0 0 0;
+    text-transform: uppercase;
+    font-family: "GothamProMedium";
+    font-size: 17px;
+    letter-spacing: 1px; }
+  .designed-developed-nyc p {
+    margin: 5px 0 5px 0;
+    font-family: "GothamProRegular";
+    font-size: 15px;
+    line-height: 25px; }
+  .designed-developed-nyc a {
+    display: inline-block;
+    margin-top: 30px; }
 
 .work-together {
   padding: 70px 0 70px 0;
@@ -10262,7 +10275,7 @@ button.close {
   padding: 0; }
 
 .contact .for-business, .contact .for-team {
-  padding: 30px 0 20px 0;
+  padding: 60px 0 60px 0;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -10273,7 +10286,22 @@ button.close {
   background-color: #1f5e88; }
 
 .contact h3 {
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  font-family: "GothamProRegular";
+  font-size: 17px;
+  letter-spacing: 1px; }
+
+.contact a {
+  font-family: "GothamProRegular";
+  font-size: 15px;
+  color: #35bdf6;
+  text-decoration: none; }
+  .contact a:active, .contact a:hover, .contact a:focus {
+    color: #2a6496; }
+
+.contact .email-contact {
+  padding-top: 10px;
+  color: white; }
 
 .contact .map {
   height: 400px;
@@ -10287,7 +10315,8 @@ footer {
   color: white; }
   footer a {
     color: #35bdf6;
-    text-decoration: none; }
+    text-decoration: none;
+    font-family: "GothamProRegular"; }
     footer a:active, footer a:hover, footer a:focus {
       outline: 0;
       color: #16a9e1;
@@ -10299,13 +10328,19 @@ footer {
     padding: 0;
     list-style-type: none;
     color: white;
-    line-height: 24px; }
+    line-height: 24px;
+    font-family: "GothamProRegular"; }
   footer .footer-col-right {
     text-align: right; }
     @media (max-width: 768px) {
       footer .footer-col-right {
         text-align: left; } }
+  footer p {
+    margin: 50px 0 50px 0;
+    font-family: "GothamProMedium";
+    font-size: 12px; }
 
 .footer-logo {
   width: 130px;
-  height: auto; }
+  height: auto;
+  margin: 80px 0 20px 0; }
