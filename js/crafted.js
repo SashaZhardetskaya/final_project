@@ -1,12 +1,6 @@
 var mmenu = 'close'; // пеоеменная для закрытия меню
 
-$(document).ready(function(){ 
-$('.animated-button a').click(function(){
-	var project = $('.projects').offset().top;
-	$('body').animate({scrollTop:project},880);
-});
 
-});
 
 
 /* ajax + json */
@@ -112,6 +106,14 @@ $(document).on("click", ".slider .nav span", function() { // slider click naviga
 });
 
 */
+
+$(document).ready(function(){  //anchors
+$('.animated-button a').click(function(){
+	var project = $('.projects').offset().top;
+	$('body').animate({scrollTop:project},880);
+});
+
+});
 
 
 $(document).ready(function(){
