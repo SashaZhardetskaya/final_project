@@ -9977,15 +9977,6 @@ button.close {
     outline: 5px auto -webkit-focus-ring-color; }
 
 body {
-  scrollbar-face-color: #5997CA;
-  scrollbar-shadow-color: #ffffff;
-  scrollbar-highlight-color: #ffffff;
-  scrollbar-3dlight-color: #5997CA;
-  scrollbar-darkshadow-color: #5997CA;
-  scrollbar-track-color: #F6F6F6;
-  scrollbar-arrow-color: #F6F6F6; }
-
-body {
   scrollbar-arrow-color: #35bdf6;
   /* Цвет стрелок */
   scrollbar-base-color: #35bdf6;
@@ -9996,7 +9987,7 @@ body {
   /* Цвет светлых участков тени */ }
 
 ::-webkit-scrollbar {
-  width: 12px; }
+  width: 10px; }
 
 ::-webkit-scrollbar-thumb {
   border-width: 1px 1px 1px 2px;
@@ -10008,12 +9999,12 @@ body {
   border-color: #555;
   background-color: #00a9ed; }
 
-::-webkit-scrollbar-track:vertical {
-  border-width: 0; }
+::-webkit-scrollbar-track {
+  border-width: 0;
+  background-color: transparent; }
 
 ::-webkit-scrollbar-track:hover {
-  border-left: solid 1px #aaa;
-  background-color: #eee; }
+  background-color: transparent; }
 
 .myrow {
   margin-right: 0;

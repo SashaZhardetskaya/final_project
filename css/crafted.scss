@@ -26,17 +26,15 @@
 }
 
 
-body { 
-	:scrollbar-face-color:#5997CA; 
-    :scrollbar-shadow-color: #ffffff;
-    :scrollbar-highlight-color: #ffffff;
-    :scrollbar-3dlight-color: #5997CA;
-    :scrollbar-darkshadow-color: #5997CA; 
-    :scrollbar-track-color: #F6F6F6;
-    :scrollbar-arrow-color: #F6F6F6; 
-}
+// body { 
+// 	:-moz-scrollbar-end-backward: #35bdf6;
+// 	:-moz-scrollbar-end-forward: #35bdf6;
+// 	:-moz-scrollbar-start-backward: #35bdf6;
+// 	:-moz-scrollbar-start-forward: #35bdf6;
+// 	:-moz-scrollbar-thumb-proportional: #35bdf6;
+// }
 
-body { 
+body { //for Explorer
     ::scrollbar-arrow-color: #35bdf6; /* Цвет стрелок */
     ::scrollbar-base-color: #35bdf6; /* Цвет полосы прокрутки */
     ::scrollbar-shadow-color: #35bdf6; /* Цвет тени */
