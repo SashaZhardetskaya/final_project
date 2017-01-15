@@ -259,13 +259,25 @@
 }
 
 
-
+.projects {
+	margin-bottom: 100px;
+}
 
 .projects-img {
 	padding: 0;
 	img {
-	width: 100%;
-	vertical-align: bottom; //cancel bootstrap settings
+		width: 100%;
+		vertical-align: bottom; //cancel bootstrap settings
+		overflow: hidden;
+		-webkit-transition: all 1s ease;
+     	-moz-transition: all 1s ease;
+       	-o-transition: all 1s ease;
+      	-ms-transition: all 1s ease;
+        transition: all 1s ease;
+		&:hover,{
+			-webkit-filter: contrast(145%);
+			-webkit-filter: brightness(145%); 
+		}
 	}
 }
 
@@ -280,7 +292,7 @@
 
 .see-all-work {
 	.see-all-work_padding {
-		margin-top: 100px;
+		//margin-top: 100px;
 		padding: 0;
 		text-transform: uppercase;
 	}
@@ -502,11 +514,28 @@ footer {
 }
 
 
+//contact page
+
+.contact-home {
+	height: 70vh;
+	width: 100%;
+	position: relative;
+	background: url(../img/crafted_conference.jpg) center center no-repeat;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+
+.slider-container {
+	background: #eaeaea;
+}
+
 
 .slider {
 	z-index: 1;
 	width: 100%;
-	height: 290px;
+	height: 80vh;
 	overflow: hidden;
 	margin: 0 0 7px;
 	position: relative;
@@ -517,20 +546,30 @@ footer {
 	}
 	ul {
 	 	width: 500%; 
-	 	height: 290px;
+	 	height: 80vh;
 		li {
 			display: inline-block;
 			list-style-type: none;
 			float: left;
 			width: 20%;
-			height: 290px;
-			background: red;
+			height: 80vh;
 			img {
 				width: 100%;
-				height: 20vh;
+				height: 15vh;
+				margin: 10vh 0 3vh 0;
 			}
-			div, p {
+			div {
 				text-align: center;
+				font-family: "GothamProRegular";
+				font-size: 16px;
+				letter-spacing: 1px;
+			}
+			p {
+				text-align: center;
+				line-height: 1.5;
+				font-family: "GothamProRegular";
+				font-size: 30px;
+
 			}
 	 	}
 	}
@@ -539,7 +578,7 @@ footer {
 		justify-content: center;
 		position: absolute;
 		left: 40%;
-		bottom: 12px; 
+		bottom: 45px; 
 		span {
 			opacity: 0.9;
 			background: #fff;
@@ -555,6 +594,25 @@ footer {
 			&.on {
 				background: #35bdf6;
 			}
+		}
+	}
+}
+
+
+.insta-photo {
+	padding: 0;
+	img {
+		width: 100%;
+		vertical-align: bottom; //cancel bootstrap settings
+		overflow: hidden;
+		-webkit-transition: all 1s ease;
+     	-moz-transition: all 1s ease;
+       	-o-transition: all 1s ease;
+      	-ms-transition: all 1s ease;
+        transition: all 1s ease;
+		&:hover,{
+			-webkit-filter: contrast(145%);
+			-webkit-filter: brightness(145%); 
 		}
 	}
 }

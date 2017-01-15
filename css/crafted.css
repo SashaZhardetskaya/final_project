@@ -10164,11 +10164,23 @@ button.close {
     -webkit-transform: scale(0.95);
     opacity: 0.7; } }
 
+.projects {
+  margin-bottom: 100px; }
+
 .projects-img {
   padding: 0; }
   .projects-img img {
     width: 100%;
-    vertical-align: bottom; }
+    vertical-align: bottom;
+    overflow: hidden;
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease; }
+    .projects-img img:hover {
+      -webkit-filter: contrast(145%);
+      -webkit-filter: brightness(145%); }
 
 .projects-title {
   padding: 100px 0 50px 0;
@@ -10179,7 +10191,6 @@ button.close {
   letter-spacing: 5px; }
 
 .see-all-work .see-all-work_padding {
-  margin-top: 100px;
   padding: 0;
   text-transform: uppercase; }
 
@@ -10345,10 +10356,23 @@ footer {
   height: auto;
   margin: 80px 0 20px 0; }
 
+.contact-home {
+  height: 70vh;
+  width: 100%;
+  position: relative;
+  background: url(../img/crafted_conference.jpg) center center no-repeat;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover; }
+
+.slider-container {
+  background: #eaeaea; }
+
 .slider {
   z-index: 1;
   width: 100%;
-  height: 290px;
+  height: 80vh;
   overflow: hidden;
   margin: 0 0 7px;
   position: relative; }
@@ -10358,25 +10382,33 @@ footer {
     list-style-type: none; }
   .slider ul {
     width: 500%;
-    height: 290px; }
+    height: 80vh; }
     .slider ul li {
       display: inline-block;
       list-style-type: none;
       float: left;
       width: 20%;
-      height: 290px;
-      background: red; }
+      height: 80vh; }
       .slider ul li img {
         width: 100%;
-        height: 20vh; }
-      .slider ul li div, .slider ul li p {
-        text-align: center; }
+        height: 15vh;
+        margin: 10vh 0 3vh 0; }
+      .slider ul li div {
+        text-align: center;
+        font-family: "GothamProRegular";
+        font-size: 16px;
+        letter-spacing: 1px; }
+      .slider ul li p {
+        text-align: center;
+        line-height: 1.5;
+        font-family: "GothamProRegular";
+        font-size: 30px; }
   .slider .nav {
     display: flex;
     justify-content: center;
     position: absolute;
     left: 40%;
-    bottom: 12px; }
+    bottom: 45px; }
     .slider .nav span {
       opacity: 0.9;
       background: #fff;
@@ -10391,3 +10423,18 @@ footer {
       box-shadow: 0 1px 2px #000; }
       .slider .nav span.on {
         background: #35bdf6; }
+
+.insta-photo {
+  padding: 0; }
+  .insta-photo img {
+    width: 100%;
+    vertical-align: bottom;
+    overflow: hidden;
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease; }
+    .insta-photo img:hover {
+      -webkit-filter: contrast(145%);
+      -webkit-filter: brightness(145%); }
