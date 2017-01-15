@@ -1,5 +1,12 @@
 var mmenu = 'close'; // пеоеменная для закрытия меню
 
+$(document).ready(function(){ 
+$('.animated-button a').click(function(){
+	var project = $('.projects').offset().top;
+	$('body').animate({scrollTop:project},880);
+});
+
+});
 
 
 /* ajax + json */

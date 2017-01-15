@@ -9976,36 +9976,6 @@ button.close {
     color: #35bdf6;
     outline: 5px auto -webkit-focus-ring-color; }
 
-body {
-  scrollbar-arrow-color: #35bdf6;
-  /* Цвет стрелок */
-  scrollbar-base-color: #35bdf6;
-  /* Цвет полосы прокрутки */
-  scrollbar-shadow-color: #35bdf6;
-  /* Цвет тени */
-  scrollbar-highlight-color: #35bdf6;
-  /* Цвет светлых участков тени */ }
-
-::-webkit-scrollbar {
-  width: 10px; }
-
-::-webkit-scrollbar-thumb {
-  border-width: 1px 1px 1px 2px;
-  border-color: #777;
-  background-color: #35bdf6; }
-
-::-webkit-scrollbar-thumb:hover {
-  border-width: 1px 1px 1px 2px;
-  border-color: #555;
-  background-color: #00a9ed; }
-
-::-webkit-scrollbar-track {
-  border-width: 0;
-  background-color: transparent; }
-
-::-webkit-scrollbar-track:hover {
-  background-color: transparent; }
-
 .myrow {
   margin-right: 0;
   margin-left: 0; }
@@ -10120,7 +10090,7 @@ body {
 .animated-button {
   height: 50px;
   width: 50px; }
-  .animated-button i {
+  .animated-button a {
     width: 30px;
     height: 30px;
     position: absolute;
