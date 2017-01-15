@@ -1,0 +1,72 @@
+@import url(http://fonts.googleapis.com/css?family=Bad+Script&subset=latin,cyrillic);
+@import url(http://fonts.googleapis.com/css?family=Lobster&subset=latin,cyrillic);
+
+body{
+	background-color: #fff;
+	color: #555;
+	font-size: 14px;
+	font-family: 'Bad Script', cursive;
+	margin: 0;
+	padding: 0;
+	min-width: 480px;
+}
+
+html, body{ 
+	height: 100%; 
+}
+
+h2{
+	font-size: 80px;
+	text-align: center;
+	font-family: 'Lobster', cursive;
+	font-weight: 700;
+	font-style: italic;
+	color: #444;
+}
+
+hr{
+	height: 0;
+	border: none;
+	border-bottom: 1px solid #eee;
+	border-top: 1px solid #eee;
+	margin-bottom: 50px;
+	clear: both;
+}
+
+.cont{
+	font-size: 30px;
+	margin: 0 auto;
+	padding-top: 20px;
+	width: 50%;
+	max-width: 50%;
+	}
+
+.text{
+	padding-top: 15px;
+	padding-bottom: 20px
+	}
+
+.box{
+	border: 0px solid #000;
+	font-size: 30px;
+	margin: 0 auto;
+	padding-top: 20px;
+	width: 100%;
+	max-width: 100%;
+	}
+
+.box a{
+	margin-right: 20px;
+	margin-bottom: 20px;
+	float: left;
+	border-radius: 4px;
+	padding: 8px 35px 8px 35px;
+	background-color: #eee;
+	color: #555;
+	font-size: 25px;
+	}
+
+.box a:hover{
+	background-color: #333;
+	color: #fff;
+	}
