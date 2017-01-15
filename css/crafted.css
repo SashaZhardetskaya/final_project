@@ -10369,9 +10369,13 @@ footer {
       .slider ul li img {
         width: 100%;
         height: 20vh; }
+      .slider ul li div, .slider ul li p {
+        text-align: center; }
   .slider .nav {
+    display: flex;
+    justify-content: center;
     position: absolute;
-    left: 15px;
+    left: 40%;
     bottom: 12px; }
     .slider .nav span {
       opacity: 0.9;
