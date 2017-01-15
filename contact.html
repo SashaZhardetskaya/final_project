@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>crafted</title>
     <link href="css/crafted.css" rel="stylesheet">
+    <link rel="shortcut icon" href="./img/favicon.ico?v=2" type="image/x-icon">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
     <script src="js/crafted.js"></script>
   </head>
@@ -26,7 +27,7 @@
         <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
           <ul class="menu-list">
             <li class="menu-item">
-              <a alt="web-app-design-development" href="#">Home</a>
+              <a alt="web-app-design-development" href="./crafted.html">Home</a>
             </li>
             <li class="menu-item">
               <a alt="website-design-mobile-app-development-agency-nyc-portfolio" href="#">Work</a>
@@ -89,6 +90,45 @@
         </div>            
       </div>
     </section>
+
+
+    <section class="container-fluid subscribe">
+      <div class="row myrow">
+        <div class="col-lg-6 col-lg-offset-3 col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2 col-xs-8 col-xs-offset-2">
+          <h1>create an account and Subscribe to the <a href="./crafted.html">CRAFTED</a> News</h1>
+          <form>
+            <div class="form-group">
+              <label for="exampleInputEmail1">Email address</label>
+              <input type="email" class="form-control" id="email1" placeholder="Email">
+            </div>
+            <div class="form-group">
+              <label for="exampleInputPassword1">Password</label>
+              <input type="text" class="form-control" id="pass1" placeholder="Password">
+            </div>
+            <button type="submit" class="btn btn-default" disabled>Submit</button>
+          </form>
+        <!-- Modal -->
+          <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                  <h4 class="modal-title" id="myModalLabel">Creating your account:</h4>
+                </div>
+                <div class="modal-body" id="send-res">
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
+      </div>
+    </section>
+
+
     <section class="container-fluid work-together">
       <div class="row myrow">
         <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">

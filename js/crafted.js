@@ -26,7 +26,9 @@ $(document).ready(function(){
     $preloader.delay(1100).fadeOut('slow');
 }); 
 	
-/* млайдер с автоматической прокруткой */
+
+
+/* cлайдер с автоматической прокруткой */
  $(document).ready(function() { 
  $(".slider").each(function() {
 
@@ -126,9 +128,12 @@ $(document).on("click", ".slider .nav span", function() { // slider click naviga
 $(document).ready(function(){
 	new WOW().init(); // инициализация wow.js
     $('.menu-burger').on('click', showMmenu);
+    $('form').on('submit', sendMess);
+    $('#email1, #pass1').on('keyup', checkInputs);
 });
 
 
+/* NENU */
 
 function showMmenu(){
 	if (mmenu=='close') { 
@@ -147,6 +152,46 @@ function showMmenu(){
 	}
 }
 
+/* SUBSCRUBE FORM */
+
+function sendMess() {
+    event.preventDefault();
+    $.get(
+        "send.php",
+        {
+            "email" : $('#email1').val(),
+            "pass" : $('#pass1').val()
+        },
+        function (data){
+            if (data==1){
+                $('#send-res').html('Success!');
+                $('#myModal').modal('show');
+                setTimeout(function(){
+                    $('#myModal').modal('hide');
+                }, 3000);
+
+            }
+            else {
+                $('#send-res').html('Try again');
+                $('#myModal').modal('show');
+            }
+        }
+    );
+}
+
+function  checkInputs() {
+    var mail = $('#email1').val();
+        mail = $.trim(mail);
+    var pass= $('#pass1').val();
+        pass = $.trim(pass);
+
+    if (mail!='' && pass!='') {
+        $('form button[type="submit"]').removeAttr('disabled');
+    }
+    else {
+        $('form button[type="submit"]').attr('disabled', 'disabled');
+    }
+}
 
 
 
