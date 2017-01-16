@@ -680,3 +680,45 @@ footer {
 		}
 	}
 }
+
+
+//about page 
+
+.about-home {
+
+	position: absolute;
+    z-index: -1;
+    top: 0px;
+    left: 0px;
+    bottom: 0px;
+    right: 0px;
+    overflow: hidden;
+    background-size: cover;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-position: 0% 0%;
+    background-image: url("https://www.craftedny.com/video/crafted_about_720.png");
+    video {
+    	margin: auto;
+	    position: absolute;
+	    z-index: -1;
+	    top: 0%;
+	    left: 0%;
+	    transform: translate(0%, 0%);
+	    visibility: visible;
+	    opacity: 1;
+	    width: auto;
+	    height: 473px;
+    }
+
+
+	// height: 70vh;
+	// width: 100%;
+	// position: relative;
+	// background: url(../img/crafted_conference.jpg) center center no-repeat;
+	
+ //    background-size: cover;
+ //    -webkit-background-size: cover;
+ //    -moz-background-size: cover;
+ //    -o-background-size: cover;
+}
