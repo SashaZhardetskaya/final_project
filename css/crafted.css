@@ -10520,3 +10520,19 @@ footer {
   .team p {
     font-family: "GothamProRegular";
     font-size: 15px; }
+  .team .member-profile {
+    height: 420px; }
+    .team .member-profile img {
+      margin-top: 25px; }
+    .team .member-profile h2 {
+      text-transform: uppercase;
+      color: #333;
+      font-family: "GothamProRegular";
+      font-size: 23px; }
+    .team .member-profile h3 {
+      text-transform: uppercase;
+      font-family: "GothamProRegular";
+      font-size: 14px; }
+    .team .member-profile p {
+      font-family: "GothamProLight";
+      font-size: 15px; }

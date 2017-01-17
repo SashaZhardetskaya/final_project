@@ -69,7 +69,6 @@
 }
 
 
-
 #page-preloader {
     position: fixed;
     display: flex;
@@ -757,13 +756,34 @@ footer {
 	background-color: #F6F6F6;
 	text-align: center;
 	h1 {
-	text-transform: uppercase;
-	color: #333;	
-	font-family: "GothamProLight";
-    letter-spacing: 5px;
-	}
+		text-transform: uppercase;
+		color: #333;	
+		font-family: "GothamProLight";
+	    letter-spacing: 5px;
+		}
 	p {
 		font-family: "GothamProRegular";
 		font-size: 15px;
+	}
+	.member-profile {
+		height: 420px;
+		img {
+		margin-top: 25px;
+		}
+		h2 {
+			text-transform: uppercase;
+			color: #333;	
+			font-family: "GothamProRegular";
+		    font-size: 23px;
+		}
+		h3 {
+			text-transform: uppercase;
+			font-family: "GothamProRegular";
+			font-size: 14px;
+		}
+		p {
+			font-family: "GothamProLight";
+			font-size: 15px;
+		}
 	}
 }
