@@ -1,15 +1,14 @@
 # final_project
 
-["HOME(main) page"](http://diz.promo.net.ua/Zhara/crafted.html)
+
+Links:
 
 
-["ABOUT" page](http://diz.promo.net.ua/Zhara/about.html)
+* ["HOME(main) page"](http://diz.promo.net.ua/Zhara/crafted.html)
 
 
-["CONTACT" page](http://diz.promo.net.ua/Zhara/contact.html)
+* ["ABOUT" page](http://diz.promo.net.ua/Zhara/about.html)
 
 
-http://diz.promo.net.ua/Zhara/crafted.html
-http://diz.promo.net.ua/Zhara/about.html
-http://diz.promo.net.ua/Zhara/contact.html
+* ["CONTACT" page](http://diz.promo.net.ua/Zhara/contact.html)
 
