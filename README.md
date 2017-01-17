@@ -1,4 +1,6 @@
-# final_project
+# final project
+
+Description: I've created few web-pages of the [craftedny.com](https://www.craftedny.com/) website. Links below.
 
 
 Links:
