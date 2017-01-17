@@ -107,10 +107,16 @@ $(document).on("click", ".slider .nav span", function() { // slider click naviga
 
 */
 
+/* ANCHORS	*/
+
 $(document).ready(function(){  //anchors
 $('.animated-button a').click(function(){
 	var project = $('.projects').offset().top;
 	$('body').animate({scrollTop:project},880);
+});
+$('.about-home-button a').click(function(){
+	var team = $('.team').offset().top;
+	$('body').animate({scrollTop:team},880);
 });
 
 });
