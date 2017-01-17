@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1 maximum-scale=1">
     <title>crafted</title>
     <link href="css/crafted.css" rel="stylesheet">
     <link rel="shortcut icon" href="./img/favicon.ico?v=2" type="image/x-icon">
@@ -47,27 +47,28 @@
     </section>
     <section class="container-fluid about-home">
       <div class="row">
-        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 ">
-          <video autoplay="" loop="" muted="">
+        <!-- <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12"> -->
+          <video class="col-lg-12 col-md-12 col-sm-12 col-xs-12" autoplay="" loop="" muted="">
             <source src="./video/crafted_about_720.mp4" type="video/mp4">    
-          </video>      
-          <div class="home-page-content">
+          </video>  
+        <!-- </div> -->
+        <div class="col-lg-10 col-lg-offset-1 col-md-10 col-md-offset-1 col-sm-12 col-xs-12">
+              
+          <div class="about-home-page-content">
             <img src="./img/crafted_logo.svg" alt="web-app-design-development" class="main-logo wow fadeInUp" data-wow-delay="1.1s">
             <h1>We make digital beautiful</h1>
             <p>Top New York City based design and development agency producing beautifully crafted websites and native apps for tech startups and fortune 100 brands.</p>
+            <div class="about-home-button">
+            <a href="#projects">Meet Our Team</a> 
+          </div>
           </div>
           
-          <div class="animated-button">
-            <span class="animation-for-btn1"></span>
-            <span class="animation-for-btn2"></span>
-            <a href="#projects"> 
-            </a>
-          </div>
+          
         </div>
       </div>
     </section>
     
-    <section class="container-fluid recognition wow slideInUp">
+    <section class="container-fluid team wow slideInUp">
       <div class="row myrow">
         <div class="col-lg-10 col-lg-offset-1 col-md-10 col-md-offset-1 col-sm-12 col-xs-12">
           <div class="recognition-title">
@@ -124,24 +125,26 @@
       </div>
     </section>
 
-    <section class="container-fluid insta-photo">
-      <div class="row myrow">
-        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 insta-photo_padding">
-          <div class="col-lg-3 col-md-3 col-sm-6 col-sm-offset-0 col-xs-12 col-xs-offset-0 projects-img wow fadeInUp" >
-            <img src="./img/11008271_926302490743640_186502589_n.jpg" alt="website-design-agency-nyc-new-york-times">
+    <section class="container-fluid see-all-work">
+      <div class="row">
+        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 see-all-work_padding wow fadeIn" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeIn;">
+          <div class="services">
+            <i class="fa fa-umbrella fa-3x" aria-hidden="true"></i>
+            <h2>Our Capabilities</h2>
+            <a href="#" alt="website-design-mobile-app-development-agency-nyc" class="see-more-button">Explore OUR SERVICES</a>
           </div>
-          <div class="col-lg-3 col-md-3 col-sm-6 col-sm-offset-0 col-xs-12 col-xs-offset-0 projects-img wow fadeInUp" data-wow-delay="0.1s">
-            <img src="./img/10549918_409240315916397_148269305_n.jpg" alt="website-design-agency-nyc-new-york-times">
+        </div>
+        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 see-all-work_padding wow fadeIn" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeIn;">
+          <div class="works">
+            <i class="fa fa-suitcase fa-3x" aria-hidden="true"></i>
+            <h2>Our Featured WORK</h2>
+            <a href="#" alt="website-design-mobile-app-development-agency-nyc" class="see-more-button">See more work</a>
           </div>
-          <div class="col-lg-3 col-md-3 col-sm-6 col-sm-offset-0 col-xs-12 col-xs-offset-0 projects-img wow fadeInUp" data-wow-delay="0.2s">
-            <img src="./img/13381061_1628062424188028_755214603_n.jpg" alt="website-design-agency-nyc-new-york-times">
-          </div>             
-          <div class="col-lg-3 col-md-3 col-sm-6 col-sm-offset-0 col-xs-12 col-xs-offset-0 projects-img wow fadeInUp" data-wow-delay="0.1s">
-            <img src="./img/14540579_1164268126977161_544792047169568768_n.jpg" alt="website-design-agency-nyc-new-york-times">
-          </div>
-        </div>            
+        </div>
       </div>
     </section>
+
+    
     <section class="container-fluid recognition wow slideInUp">
       <div class="row myrow">
         <div class="col-lg-10 col-lg-offset-1 col-md-10 col-md-offset-1 col-sm-12 col-xs-12">
@@ -180,54 +183,22 @@
         </div>
       </div>
     </section>
-    <section class="container-fluid clients">
+    <section class="container-fluid insta-photo">
       <div class="row myrow">
-        <div class="col-lg-10 col-lg-offset-1 col-md-10 col-md-offset-1 col-sm-10 col-sm-offset-1 col-xs-12">
-          <div class="recognition-title wow slideInUp">
-            <h1>Featured Clients</h1>
-            <p>We believe the direct collaboration with our clients is the essential formula to bring-to-life unique and immersive experiences. We help our clients solve business problems, increase visibility and help them achieve unexpected results.</p>
+        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 insta-photo_padding">
+          <div class="col-lg-3 col-md-3 col-sm-6 col-sm-offset-0 col-xs-12 col-xs-offset-0 projects-img wow fadeInUp" >
+            <img src="./img/11008271_926302490743640_186502589_n.jpg" alt="website-design-agency-nyc-new-york-times">
           </div>
-          <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 client-logo">
-            <div class="icon-box wow slideInUp" data-wow-delay="0.1s">
-              <img src="./img/appleinsider-logo.svg">
-            </div>
+          <div class="col-lg-3 col-md-3 col-sm-6 col-sm-offset-0 col-xs-12 col-xs-offset-0 projects-img wow fadeInUp" data-wow-delay="0.1s">
+            <img src="./img/10549918_409240315916397_148269305_n.jpg" alt="website-design-agency-nyc-new-york-times">
           </div>
-          <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 client-logo">
-            <div class="icon-box wow slideInUp" data-wow-delay="0.2s">
-              <img src="./img/bmw-logo.svg">
-            </div>
+          <div class="col-lg-3 col-md-3 col-sm-6 col-sm-offset-0 col-xs-12 col-xs-offset-0 projects-img wow fadeInUp" data-wow-delay="0.2s">
+            <img src="./img/13381061_1628062424188028_755214603_n.jpg" alt="website-design-agency-nyc-new-york-times">
+          </div>             
+          <div class="col-lg-3 col-md-3 col-sm-6 col-sm-offset-0 col-xs-12 col-xs-offset-0 projects-img wow fadeInUp" data-wow-delay="0.1s">
+            <img src="./img/14540579_1164268126977161_544792047169568768_n.jpg" alt="website-design-agency-nyc-new-york-times">
           </div>
-          <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 client-logo">
-            <div class="icon-box wow slideInUp" data-wow-delay="0.3s">
-              <img src="./img/nike-logo.svg">
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 client-logo">
-            <div class="icon-box wow slideInUp" data-wow-delay="0.4s">
-              <img src="./img/ny-times-logo.svg">
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 client-logo">
-            <div class="icon-box wow slideInUp" data-wow-delay="0.1s">
-              <img src="./img/one-paper-lane-logo.svg">
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 client-logo">
-            <div class="icon-box wow slideInUp" data-wow-delay="0.2s">
-              <img src="./img/pavan-liqueur-logo.svg">
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 client-logo">
-            <div class="icon-box wow slideInUp" data-wow-delay="0.3s">
-              <img src="./img/tishman-speyer-logo.svg">
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 client-logo">
-            <div class="icon-box wow slideInUp" data-wow-delay="0.4s">
-              <img src="./img/works-gallery-logo.svg">
-            </div>
-          </div>
-        </div>
+        </div>            
       </div>
     </section>
     <section class="container-fluid designed-developed-nyc">

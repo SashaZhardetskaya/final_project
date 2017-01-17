@@ -9962,7 +9962,7 @@ button.close {
   font-style: normal;
   font-weight: normal; }
 
-.see-all-work a, .designed-developed-nyc a {
+.see-all-work a, .designed-developed-nyc a, .about-home-button a {
   padding: 12px 40px;
   color: white;
   border: 3px solid;
@@ -9972,7 +9972,7 @@ button.close {
   font-family: "GothamProRegular";
   font-size: 12px;
   cursor: pointer; }
-  .see-all-work a:hover, .designed-developed-nyc a:hover, .see-all-work a:focus, .designed-developed-nyc a:focus {
+  .see-all-work a:hover, .designed-developed-nyc a:hover, .about-home-button a:hover, .see-all-work a:focus, .designed-developed-nyc a:focus, .about-home-button a:focus {
     color: #35bdf6;
     outline: 5px auto -webkit-focus-ring-color; }
 
@@ -10033,6 +10033,9 @@ button.close {
   padding: 0;
   list-style-type: none;
   text-transform: uppercase; }
+  @media (max-height: 440px) {
+    .menu-list {
+      margin-top: 0; } }
 
 .menu-item {
   display: flex;
@@ -10042,6 +10045,12 @@ button.close {
   text-decoration: none;
   font-size: 22px;
   line-height: 75px; }
+  @media (max-height: 355px) {
+    .menu-item {
+      line-height: 55px; } }
+  @media (max-height: 255px) {
+    .menu-item {
+      line-height: 35px; } }
   .menu-item:active, .menu-item:hover, .menu-item:focus {
     color: #35bdf6;
     background-color: white;
@@ -10459,20 +10468,55 @@ footer {
       -webkit-filter: brightness(145%); }
 
 .about-home {
-  height: 1000px;
-  width: 100%;
-  position: absolute;
-  padding: 0;
-  top: 0px;
-  left: 0px;
-  bottom: 0px;
-  right: 0px;
+  height: auto;
+  position: relative;
   overflow: hidden;
-  background-size: cover;
-  background-color: transparent;
-  background-repeat: no-repeat;
-  background-position: 0% 0%;
-  background-image: url("https://www.craftedny.com/video/crafted_about_720.png"); }
+  background-color: #F6F6F6; }
   .about-home video {
-    width: 100%;
+    margin: auto;
+    position: absolute;
+    top: 0%;
+    left: 0%;
     padding: 0; }
+    @media (max-width: 920px) {
+      .about-home video {
+        height: 100%;
+        width: auto; } }
+
+.about-home-page-content {
+  width: 100%;
+  height: 100%;
+  margin: auto;
+  padding-top: 140px;
+  max-width: 500px;
+  overflow: hidden;
+  text-align: center;
+  color: white; }
+  .about-home-page-content .main-logo {
+    width: 200px;
+    height: auto; }
+  .about-home-page-content h1 {
+    font-family: "GothamProRegular";
+    letter-spacing: 1px;
+    font-weight: 200;
+    line-height: 27px; }
+  .about-home-page-content p {
+    font-family: "GothamProRegular";
+    font-size: 15px;
+    line-height: 25px; }
+
+.about-home-button {
+  margin: 150px 0 40px 0; }
+
+.team {
+  padding: 100px 0 100px 0;
+  background-color: #F6F6F6;
+  text-align: center; }
+  .team h1 {
+    text-transform: uppercase;
+    color: #333;
+    font-family: "GothamProLight";
+    letter-spacing: 5px; }
+  .team p {
+    font-family: "GothamProRegular";
+    font-size: 15px; }

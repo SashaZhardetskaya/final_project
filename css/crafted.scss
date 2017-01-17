@@ -129,6 +129,9 @@
 	padding: 0;
 	list-style-type: none;
 	text-transform: uppercase;
+	@media (max-height: 440px) {
+		margin-top: 0;
+	}
 }
 
 .menu-item {
@@ -139,6 +142,12 @@
 	text-decoration: none;
 	font-size: 22px;
 	line-height: 75px;
+	@media (max-height: 355px) {
+		line-height: 55px;
+	}
+	@media (max-height: 255px) {
+		line-height: 35px;
+	}
 	&:active, &:hover, &:focus {
 		color: #35bdf6;
 		background-color: white;
@@ -685,23 +694,76 @@ footer {
 //about page 
 
 .about-home {
-	height: 1000px;
+	//height: 80vh;
+	height: auto;
+	position: relative;
+	overflow: hidden;
+	background-color: #F6F6F6;
+	
+	video {
+		margin: auto;
+		position: absolute;
+		top: 0%;
+		left: 0%;
+		padding: 0;
+		@media (max-width: 920px) {
+			height: 100%;
+			width: auto;
+		}
+	}
+}
+
+
+.about-home-page-content{
+	// position: relative;
+	// vertical-align: middle;
+	// top: 30%;
 	width: 100%;
-	position: absolute;
-	padding: 0;
-  //z-index: -1;
-  top: 0px;
-  left: 0px;
-  bottom: 0px;
-  right: 0px;
-  overflow: hidden;
-  background-size: cover;
-  background-color: transparent;
-  background-repeat: no-repeat;
-  background-position: 0% 0%;
-  background-image: url("https://www.craftedny.com/video/crafted_about_720.png");
-  video {
-  	width: 100%;
-  	padding: 0;
-  }
+    height: 100%;
+    margin: auto;
+    padding-top: 140px;
+    max-width: 500px;
+    overflow: hidden;
+	text-align: center;
+	color: white;
+    .main-logo {
+    	width: 200px;
+    	height: auto;
+    }
+    h1 {
+    	font-family: "GothamProRegular";
+    	letter-spacing: 1px;
+    	font-weight: 200;
+    	line-height: 27px;
+    }
+    p {
+    	font-family: "GothamProRegular";
+    	// letter-spacing: 1px;
+    	font-size: 15px;
+    	line-height: 25px;
+    }
+}
+
+
+.about-home-button {
+	margin: 150px 0 40px 0;
+	a {
+    	@extend %link-button;	
+    }
+}
+
+.team {
+	padding: 100px 0 100px 0;
+	background-color: #F6F6F6;
+	text-align: center;
+	h1 {
+	text-transform: uppercase;
+	color: #333;	
+	font-family: "GothamProLight";
+    letter-spacing: 5px;
+	}
+	p {
+		font-family: "GothamProRegular";
+		font-size: 15px;
+	}
 }
