@@ -19,7 +19,7 @@ Technologies used:
 * Sass (SCSS)
 * JQuery
 * HTML5
-* CSS3 (including animation keyframes)
+* CSS3 (including CSS @keyframes Animations)
 * AJAX
 * JSON
 
@@ -27,7 +27,12 @@ Libs/fmwks:
 * Bootstrap
 * Animate.css
 * Wow.js
+* Fontawesome.io
 
 Elements on the website:
 * Preloader (JS + animate.css)
+* Menu (JS)
 * Slider with automatic scrolling (JS + JSON)
+* Anchors (JS + HTML)
+* Scroll-based animations (Animate.css + Wow.js)
+* Subscribe form (JS + PHP + Bootstrap)
