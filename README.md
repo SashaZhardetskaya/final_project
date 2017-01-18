@@ -36,3 +36,10 @@ Elements on the website:
 * Anchors (JS + HTML)
 * Scroll-based animations (Animate.css + Wow.js)
 * Subscribe form (JS + PHP + Bootstrap)
+
+And also I:
+* used maintainable css naming elements (also aware of BEM)
+* download all fonts to website using @font-face
+* wrote JSON file
+* committed all the changes on github
+* used media queries where it's important
